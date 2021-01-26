@@ -120,5 +120,95 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Albedo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Amber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_barbra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Beidou.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Bennet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Chongyun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Diluc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Diona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Fischl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Ganyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Jean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Keaya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Keqing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Klee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Lisa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_mcF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_mcM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Mona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Ningguang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Noelle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_QiQi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Razor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Sucrose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Tartaglia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Venti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Xaio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_XiangLing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Xinqui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Xinyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Zhongli.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

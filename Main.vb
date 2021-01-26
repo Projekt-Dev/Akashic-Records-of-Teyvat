@@ -4,8 +4,11 @@ Public Class formBase
         Region = Region.FromHrgn(CreateRoundRgn(0, 0, Width, Height, 20, 20))
         onButtonSelected(pnlNav, btnFarming)
     End Sub
-
-    <DllImport("Gdi32.dll", EntryPoint:="CreateRoundRectRgn")>
+    Public cMonday As Image() = {
+        My.Resources.port_Albedo
+    }
+#Region "Events"
+    <DllImport("Gdi32.dll", EntryPoint:="CreateRoundRectRgn")>'Creates round form border
     Private Shared Function CreateRoundRgn(ByVal nLeftRect As Integer, ByVal nTopRect As Integer, ByVal nRightRect As Integer, ByVal nBottomRect As Integer, ByVal nWidthEllipse As Integer, ByVal nHeightEllipse As Integer) As IntPtr
     End Function
 
@@ -31,6 +34,7 @@ Public Class formBase
     End Sub
 
     Private Sub btnCredits_Click(sender As Object, e As EventArgs) Handles btnCredits.Click
+        fixBtnFarm()
         onButtonSelected(pnlNav, btnCredits)
     End Sub
 #End Region
@@ -56,27 +60,37 @@ Public Class formBase
     End Sub
 #End Region
 
-
-
+#End Region
 
 #Region "Methods"
+    'When a button is selecte move Navigation Panel to button and change buttons' color
     Private Sub onButtonSelected(pnl As Panel, btn As Button)
         pnl.Height = btn.Height
         pnl.Top = btn.Top
         pnl.Left = btn.Left
-        btn.BackColor = Color.FromArgb(128, 0, 2)
+        btn.BackColor = Color.FromArgb(29, 19, 45)
+        btn.ForeColor = Color.White
+        btn.Font = New Font(btn.Font, FontStyle.Bold)
     End Sub
 
+    'When selecting another button revert color changes
     Private Sub onButtonLeave(btn As Button)
-        If btnFarming.BackColor = Color.FromArgb(15, 15, 15) Then
-        Else
-            btnFarming.BackColor = Color.FromArgb(15, 15, 15)
-        End If
+        fixBtnFarm()
+        btn.BackColor = Color.FromArgb(11, 7, 17)
+        btn.ForeColor = Color.FromArgb(220, 20, 60)
+        btn.Font = New Font(btn.Font, FontStyle.Regular)
+    End Sub
 
-        btn.BackColor = Color.FromArgb(15, 15, 15)
+    'Fix issues the Farm Button has been having until knowing the issue
+    Private Sub fixBtnFarm()
+        If btnFarming.BackColor = Color.FromArgb(8, 105, 114) Then
+        Else
+            btnFarming.BackColor = Color.FromArgb(11, 7, 17)
+            btnFarming.ForeColor = Color.FromArgb(220, 20, 60)
+            btnFarming.Font = New Font(btnFarming.Font, FontStyle.Regular)
+        End If
     End Sub
 
 #End Region
-
 
 End Class
