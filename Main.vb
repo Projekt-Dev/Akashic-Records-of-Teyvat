@@ -1,12 +1,12 @@
 ﻿Imports System.Runtime.InteropServices
 Public Class formBase
+    Dim utils As Utilities = New Utilities
     Private Sub base_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Region = Region.FromHrgn(CreateRoundRgn(0, 0, Width, Height, 20, 20))
         onButtonSelected(pnlNav, btnFarming)
+        utils.farmableCharacters()
+        utils.farmableWeapons()
     End Sub
-    Public cMonday As Image() = {
-        My.Resources.port_Albedo
-    }
 #Region "Events"
     <DllImport("Gdi32.dll", EntryPoint:="CreateRoundRectRgn")>'Creates round form border
     Private Shared Function CreateRoundRgn(ByVal nLeftRect As Integer, ByVal nTopRect As Integer, ByVal nRightRect As Integer, ByVal nBottomRect As Integer, ByVal nWidthEllipse As Integer, ByVal nHeightEllipse As Integer) As IntPtr
