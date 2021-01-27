@@ -115,7 +115,7 @@
             Case 1
                 loadWeaponImages(farms.wMonday)
             Case 2
-                loadWeaponImages(farms.wMonday)
+                loadWeaponImages(farms.wTuesday)
             Case 3
                 loadWeaponImages(farms.wMonday)
             Case 4

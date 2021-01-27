@@ -369,7 +369,7 @@ Partial Class formBase
         '
         Me.lblFarmableWeapons.AutoSize = True
         Me.lblFarmableWeapons.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFarmableWeapons.ForeColor = System.Drawing.Color.Crimson
+        Me.lblFarmableWeapons.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
         Me.lblFarmableWeapons.Location = New System.Drawing.Point(3, 8)
         Me.lblFarmableWeapons.Name = "lblFarmableWeapons"
         Me.lblFarmableWeapons.Size = New System.Drawing.Size(169, 22)
@@ -533,7 +533,7 @@ Partial Class formBase
         '
         Me.lblFarmableCharacters.AutoSize = True
         Me.lblFarmableCharacters.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.Crimson
+        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
         Me.lblFarmableCharacters.Location = New System.Drawing.Point(3, 8)
         Me.lblFarmableCharacters.Name = "lblFarmableCharacters"
         Me.lblFarmableCharacters.Size = New System.Drawing.Size(180, 22)
