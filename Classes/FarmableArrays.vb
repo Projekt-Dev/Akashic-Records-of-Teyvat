@@ -1,6 +1,6 @@
 ﻿Public Class FarmableArrays
-#Region "Monday"
-    Public cMonday As Image() = {
+#Region "Monday & Thursday"
+    Public c1 As Image() = {
         My.Resources.port_Klee,
         My.Resources.port_Tartaglia,
         My.Resources.port_Sucrose,
@@ -12,7 +12,7 @@
         My.Resources.port_Ningguang
     }
 
-    Public wMonday As Image() = {
+    Public w1 As Image() = {
         My.Resources.Weapon_Lion_s_Roar,
         My.Resources.Weapon_The_Stringless,
         My.Resources.Weapon_Whiteblind,
@@ -33,8 +33,9 @@
         My.Resources.Weapon_Royal_Grimoire
     }
 #End Region
-#Region "Tuesday"
-    Public cTuesday As Image() = {
+
+#Region "Tuesday & Friday"
+    Public c2 As Image() = {
            My.Resources.port_Jean,
            My.Resources.port_Mona,
            My.Resources.port_Ganyu,
@@ -45,7 +46,7 @@
            My.Resources.port_XiangLing,
            My.Resources.port_Chongyun
     }
-    Public wTuesday As Image() = {
+    Public w2 As Image() = {
            My.Resources.Weapon_Skyward_Atlas,
            My.Resources.Weapon_Skyward_Blade,
            My.Resources.Weapon_Skyward_Harp,
@@ -69,6 +70,40 @@
            My.Resources.Weapon_The_Widsith,
            My.Resources.Weapon_Deathmatch,
            My.Resources.Weapon_Blackcliff_Pole
+    }
+#End Region
+
+#Region "Wednesday & Saturday"
+    Public c3 As Image() = {
+        My.Resources.port_Venti,
+        My.Resources.port_Zhongli,
+        My.Resources.port_Albedo,
+        My.Resources.port_Fischl,
+        My.Resources.port_Lisa,
+        My.Resources.port_Keaya,
+        My.Resources.port_Xinqui,
+        My.Resources.port_Xinyan,
+        My.Resources.port_Beidou
+    }
+    Public w3 As Image() = {
+            My.Resources.Weapon_Mappa_Mare,
+            My.Resources.Weapon_Sacrificial_Sword,
+            My.Resources.Weapon_Iron_Sting,
+            My.Resources.Weapon_Summit_Shaper,
+            My.Resources.Weapon_Royal_Greatsword,
+            My.Resources.Weapon_Favonius_Greatsword,
+            My.Resources.Weapon_Serpent_Spine,
+            My.Resources.Weapon_Wolf_s_Gravestone,
+            My.Resources.Weapon_Favonius_Warbow,
+            My.Resources.Weapon_Compound_Bow,
+            My.Resources.Weapon_Amos_Bow,
+            My.Resources.Weapon_Prototype_Starglitter,
+            My.Resources.Weapon_Favonius_Lance,
+            My.Resources.Weapon_Skyward_Spine,
+            My.Resources.Weapon_Vortex_Vanquisher,
+            My.Resources.Weapon_Sacrificial_Fragments,
+            My.Resources.Weapon_Lost_Prayer_to_the_Sacred_Winds,
+            My.Resources.Weapon_Memory_of_Dust
     }
 #End Region
 

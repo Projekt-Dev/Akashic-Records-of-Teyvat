@@ -70,8 +70,8 @@ Partial Class formBase
         Me.pbCharacter2 = New System.Windows.Forms.PictureBox()
         Me.pbCharacter0 = New System.Windows.Forms.PictureBox()
         Me.pbCharacter7 = New System.Windows.Forms.PictureBox()
-        Me.btnClose = New System.Windows.Forms.Button()
         Me.lblDate = New System.Windows.Forms.Label()
+        Me.btnClose = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -296,7 +296,7 @@ Partial Class formBase
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon19)
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon0)
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon13)
-        Me.pnlFarmWeapons.Location = New System.Drawing.Point(262, 120)
+        Me.pnlFarmWeapons.Location = New System.Drawing.Point(286, 120)
         Me.pnlFarmWeapons.Name = "pnlFarmWeapons"
         Me.pnlFarmWeapons.Size = New System.Drawing.Size(467, 348)
         Me.pnlFarmWeapons.TabIndex = 3
@@ -510,12 +510,12 @@ Partial Class formBase
         Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter7)
         Me.pnlFarmCharacters.Location = New System.Drawing.Point(6, 120)
         Me.pnlFarmCharacters.Name = "pnlFarmCharacters"
-        Me.pnlFarmCharacters.Size = New System.Drawing.Size(250, 270)
+        Me.pnlFarmCharacters.Size = New System.Drawing.Size(238, 270)
         Me.pnlFarmCharacters.TabIndex = 3
         '
         'pbCharacter4
         '
-        Me.pbCharacter4.Location = New System.Drawing.Point(89, 117)
+        Me.pbCharacter4.Location = New System.Drawing.Point(82, 116)
         Me.pbCharacter4.Name = "pbCharacter4"
         Me.pbCharacter4.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter4.TabIndex = 0
@@ -523,7 +523,7 @@ Partial Class formBase
         '
         'pbCharacter8
         '
-        Me.pbCharacter8.Location = New System.Drawing.Point(174, 193)
+        Me.pbCharacter8.Location = New System.Drawing.Point(159, 192)
         Me.pbCharacter8.Name = "pbCharacter8"
         Me.pbCharacter8.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter8.TabIndex = 0
@@ -542,7 +542,7 @@ Partial Class formBase
         '
         'pbCharacter6
         '
-        Me.pbCharacter6.Location = New System.Drawing.Point(6, 193)
+        Me.pbCharacter6.Location = New System.Drawing.Point(6, 192)
         Me.pbCharacter6.Name = "pbCharacter6"
         Me.pbCharacter6.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter6.TabIndex = 0
@@ -550,7 +550,7 @@ Partial Class formBase
         '
         'pbCharacter5
         '
-        Me.pbCharacter5.Location = New System.Drawing.Point(174, 117)
+        Me.pbCharacter5.Location = New System.Drawing.Point(159, 116)
         Me.pbCharacter5.Name = "pbCharacter5"
         Me.pbCharacter5.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter5.TabIndex = 0
@@ -558,7 +558,7 @@ Partial Class formBase
         '
         'pbCharacter3
         '
-        Me.pbCharacter3.Location = New System.Drawing.Point(6, 117)
+        Me.pbCharacter3.Location = New System.Drawing.Point(6, 116)
         Me.pbCharacter3.Name = "pbCharacter3"
         Me.pbCharacter3.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter3.TabIndex = 0
@@ -566,7 +566,7 @@ Partial Class formBase
         '
         'pbCharacter1
         '
-        Me.pbCharacter1.Location = New System.Drawing.Point(89, 41)
+        Me.pbCharacter1.Location = New System.Drawing.Point(82, 41)
         Me.pbCharacter1.Name = "pbCharacter1"
         Me.pbCharacter1.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter1.TabIndex = 0
@@ -574,7 +574,7 @@ Partial Class formBase
         '
         'pbCharacter2
         '
-        Me.pbCharacter2.Location = New System.Drawing.Point(174, 41)
+        Me.pbCharacter2.Location = New System.Drawing.Point(159, 41)
         Me.pbCharacter2.Name = "pbCharacter2"
         Me.pbCharacter2.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter2.TabIndex = 0
@@ -590,11 +590,22 @@ Partial Class formBase
         '
         'pbCharacter7
         '
-        Me.pbCharacter7.Location = New System.Drawing.Point(89, 193)
+        Me.pbCharacter7.Location = New System.Drawing.Point(82, 192)
         Me.pbCharacter7.Name = "pbCharacter7"
         Me.pbCharacter7.Size = New System.Drawing.Size(70, 70)
         Me.pbCharacter7.TabIndex = 0
         Me.pbCharacter7.TabStop = False
+        '
+        'lblDate
+        '
+        Me.lblDate.AutoSize = True
+        Me.lblDate.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblDate.Location = New System.Drawing.Point(24, 56)
+        Me.lblDate.Name = "lblDate"
+        Me.lblDate.Size = New System.Drawing.Size(84, 16)
+        Me.lblDate.TabIndex = 1
+        Me.lblDate.Text = "Today's Date"
         '
         'btnClose
         '
@@ -608,17 +619,6 @@ Partial Class formBase
         Me.btnClose.TabIndex = 2
         Me.btnClose.Text = "X"
         Me.btnClose.UseVisualStyleBackColor = True
-        '
-        'lblDate
-        '
-        Me.lblDate.AutoSize = True
-        Me.lblDate.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.lblDate.Location = New System.Drawing.Point(24, 56)
-        Me.lblDate.Name = "lblDate"
-        Me.lblDate.Size = New System.Drawing.Size(84, 16)
-        Me.lblDate.TabIndex = 1
-        Me.lblDate.Text = "Today's Date"
         '
         'formBase
         '

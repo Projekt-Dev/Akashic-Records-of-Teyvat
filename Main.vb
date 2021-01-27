@@ -4,8 +4,7 @@ Public Class formBase
     Private Sub base_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Region = Region.FromHrgn(CreateRoundRgn(0, 0, Width, Height, 20, 20))
         onButtonSelected(pnlNav, btnFarming)
-        utils.farmableCharacters()
-        utils.farmableWeapons()
+        utils.farmables()
     End Sub
 #Region "Events"
     <DllImport("Gdi32.dll", EntryPoint:="CreateRoundRectRgn")>'Creates round form border
@@ -69,7 +68,7 @@ Public Class formBase
         pnl.Top = btn.Top
         pnl.Left = btn.Left
         btn.BackColor = Color.FromArgb(29, 19, 45)
-        btn.ForeColor = Color.White
+        btn.ForeColor = Color.FromArgb(65, 57, 76)
         btn.Font = New Font(btn.Font, FontStyle.Bold)
     End Sub
 
