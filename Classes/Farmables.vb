@@ -86,25 +86,25 @@
         'Case statement to display info depending on the day.
         Select Case dayInt
             Case 0
-                labelText("Sunday: Everything it farmable today! Happy grinding!")
+                labelText("Sunday - Everything it farmable today! Happy grinding!")
                 sundayAttributes()
             Case 1
-                labelText("Monday:")
+                labelText("Monday")
                 loadFarmableImages(farms.c1, farms.w1)
             Case 2
-                labelText("Tuesday:")
+                labelText("Tuesday")
                 loadFarmableImages(farms.c2, farms.w2)
             Case 3
-                labelText("Wednesday:")
+                labelText("Wednesday")
                 loadFarmableImages(farms.c3, farms.w3)
             Case 4
-                labelText("Thursday:")
+                labelText("Thursday")
                 loadFarmableImages(farms.c1, farms.w1)
             Case 5
-                labelText("Friday:")
+                labelText("Friday")
                 loadFarmableImages(farms.c2, farms.w2)
             Case 6
-                labelText("Saturday:")
+                labelText("Saturday")
                 loadFarmableImages(farms.c3, farms.w3)
         End Select
 

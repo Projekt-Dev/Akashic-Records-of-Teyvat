@@ -24,7 +24,7 @@ Partial Class formBase
     Private Sub InitializeComponent()
         Me.pnlMenu = New System.Windows.Forms.Panel()
         Me.pnlNav = New System.Windows.Forms.Panel()
-        Me.btnCredits = New System.Windows.Forms.Button()
+        Me.btnAbout = New System.Windows.Forms.Button()
         Me.btnCharacterRecords = New System.Windows.Forms.Button()
         Me.btnWeaponRecords = New System.Windows.Forms.Button()
         Me.btnExp = New System.Windows.Forms.Button()
@@ -33,7 +33,23 @@ Partial Class formBase
         Me.pnlLogo = New System.Windows.Forms.Panel()
         Me.pbLogo = New System.Windows.Forms.PictureBox()
         Me.lblName = New System.Windows.Forms.Label()
+        Me.pnlBase = New System.Windows.Forms.Panel()
+        Me.pnlDrag = New System.Windows.Forms.Panel()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.pnlLine = New System.Windows.Forms.Panel()
         Me.pnlLoader = New System.Windows.Forms.Panel()
+        Me.conFarming = New System.Windows.Forms.Panel()
+        Me.pnlFarmCharacters = New System.Windows.Forms.Panel()
+        Me.pbCharacter4 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter8 = New System.Windows.Forms.PictureBox()
+        Me.lblFarmableCharacters = New System.Windows.Forms.Label()
+        Me.pbCharacter6 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter5 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter3 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter1 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter2 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter0 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter7 = New System.Windows.Forms.PictureBox()
         Me.pnlFarmWeapons = New System.Windows.Forms.Panel()
         Me.pbWeapon10 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon17 = New System.Windows.Forms.PictureBox()
@@ -59,23 +75,25 @@ Partial Class formBase
         Me.pbWeapon19 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon0 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon13 = New System.Windows.Forms.PictureBox()
-        Me.pnlFarmCharacters = New System.Windows.Forms.Panel()
-        Me.pbCharacter4 = New System.Windows.Forms.PictureBox()
-        Me.pbCharacter8 = New System.Windows.Forms.PictureBox()
-        Me.lblFarmableCharacters = New System.Windows.Forms.Label()
-        Me.pbCharacter6 = New System.Windows.Forms.PictureBox()
-        Me.pbCharacter5 = New System.Windows.Forms.PictureBox()
-        Me.pbCharacter3 = New System.Windows.Forms.PictureBox()
-        Me.pbCharacter1 = New System.Windows.Forms.PictureBox()
-        Me.pbCharacter2 = New System.Windows.Forms.PictureBox()
-        Me.pbCharacter0 = New System.Windows.Forms.PictureBox()
-        Me.pbCharacter7 = New System.Windows.Forms.PictureBox()
         Me.lblDate = New System.Windows.Forms.Label()
-        Me.btnClose = New System.Windows.Forms.Button()
+        Me.conBuilds = New System.Windows.Forms.Panel()
         Me.pnlMenu.SuspendLayout()
         Me.pnlLogo.SuspendLayout()
         CType(Me.pbLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlBase.SuspendLayout()
+        Me.pnlDrag.SuspendLayout()
         Me.pnlLoader.SuspendLayout()
+        Me.conFarming.SuspendLayout()
+        Me.pnlFarmCharacters.SuspendLayout()
+        CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter0, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlFarmWeapons.SuspendLayout()
         CType(Me.pbWeapon10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbWeapon17, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -100,23 +118,13 @@ Partial Class formBase
         CType(Me.pbWeapon19, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbWeapon0, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbWeapon13, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.pnlFarmCharacters.SuspendLayout()
-        CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter0, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbCharacter7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlMenu
         '
         Me.pnlMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(17, Byte), Integer))
         Me.pnlMenu.Controls.Add(Me.pnlNav)
-        Me.pnlMenu.Controls.Add(Me.btnCredits)
+        Me.pnlMenu.Controls.Add(Me.btnAbout)
         Me.pnlMenu.Controls.Add(Me.btnCharacterRecords)
         Me.pnlMenu.Controls.Add(Me.btnWeaponRecords)
         Me.pnlMenu.Controls.Add(Me.btnExp)
@@ -137,20 +145,20 @@ Partial Class formBase
         Me.pnlNav.Size = New System.Drawing.Size(3, 100)
         Me.pnlNav.TabIndex = 1
         '
-        'btnCredits
+        'btnAbout
         '
-        Me.btnCredits.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(17, Byte), Integer))
-        Me.btnCredits.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.btnCredits.FlatAppearance.BorderSize = 0
-        Me.btnCredits.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCredits.Font = New System.Drawing.Font("Inter", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCredits.ForeColor = System.Drawing.Color.Crimson
-        Me.btnCredits.Location = New System.Drawing.Point(0, 535)
-        Me.btnCredits.Name = "btnCredits"
-        Me.btnCredits.Size = New System.Drawing.Size(186, 42)
-        Me.btnCredits.TabIndex = 1
-        Me.btnCredits.Text = "ABOUT"
-        Me.btnCredits.UseVisualStyleBackColor = False
+        Me.btnAbout.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.btnAbout.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.btnAbout.FlatAppearance.BorderSize = 0
+        Me.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAbout.Font = New System.Drawing.Font("Inter", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAbout.ForeColor = System.Drawing.Color.Crimson
+        Me.btnAbout.Location = New System.Drawing.Point(0, 535)
+        Me.btnAbout.Name = "btnAbout"
+        Me.btnAbout.Size = New System.Drawing.Size(186, 42)
+        Me.btnAbout.TabIndex = 1
+        Me.btnAbout.Text = "ABOUT"
+        Me.btnAbout.UseVisualStyleBackColor = False
         '
         'btnCharacterRecords
         '
@@ -249,26 +257,177 @@ Partial Class formBase
         'lblName
         '
         Me.lblName.AutoSize = True
-        Me.lblName.Font = New System.Drawing.Font("Montserrat", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Font = New System.Drawing.Font("Montserrat", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblName.ForeColor = System.Drawing.Color.Crimson
-        Me.lblName.Location = New System.Drawing.Point(20, 17)
+        Me.lblName.Location = New System.Drawing.Point(5, 13)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(157, 39)
+        Me.lblName.Size = New System.Drawing.Size(206, 51)
         Me.lblName.TabIndex = 1
         Me.lblName.Text = "FARMING"
         '
+        'pnlBase
+        '
+        Me.pnlBase.Controls.Add(Me.pnlDrag)
+        Me.pnlBase.Controls.Add(Me.pnlLine)
+        Me.pnlBase.Controls.Add(Me.pnlLoader)
+        Me.pnlBase.Controls.Add(Me.lblDate)
+        Me.pnlBase.Controls.Add(Me.lblName)
+        Me.pnlBase.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pnlBase.Location = New System.Drawing.Point(186, 0)
+        Me.pnlBase.Name = "pnlBase"
+        Me.pnlBase.Size = New System.Drawing.Size(765, 577)
+        Me.pnlBase.TabIndex = 2
+        '
+        'pnlDrag
+        '
+        Me.pnlDrag.Controls.Add(Me.btnClose)
+        Me.pnlDrag.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pnlDrag.Location = New System.Drawing.Point(0, 0)
+        Me.pnlDrag.Name = "pnlDrag"
+        Me.pnlDrag.Size = New System.Drawing.Size(765, 22)
+        Me.pnlDrag.TabIndex = 6
+        '
+        'btnClose
+        '
+        Me.btnClose.FlatAppearance.BorderSize = 0
+        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClose.Font = New System.Drawing.Font("Montserrat Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClose.ForeColor = System.Drawing.Color.White
+        Me.btnClose.Location = New System.Drawing.Point(732, -7)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(30, 29)
+        Me.btnClose.TabIndex = 2
+        Me.btnClose.Text = "X"
+        Me.btnClose.UseVisualStyleBackColor = True
+        '
+        'pnlLine
+        '
+        Me.pnlLine.BackColor = System.Drawing.Color.Crimson
+        Me.pnlLine.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.pnlLine.Location = New System.Drawing.Point(0, 119)
+        Me.pnlLine.Name = "pnlLine"
+        Me.pnlLine.Size = New System.Drawing.Size(765, 1)
+        Me.pnlLine.TabIndex = 5
+        '
         'pnlLoader
         '
-        Me.pnlLoader.Controls.Add(Me.pnlFarmWeapons)
-        Me.pnlLoader.Controls.Add(Me.pnlFarmCharacters)
-        Me.pnlLoader.Controls.Add(Me.lblDate)
-        Me.pnlLoader.Controls.Add(Me.btnClose)
-        Me.pnlLoader.Controls.Add(Me.lblName)
-        Me.pnlLoader.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlLoader.Location = New System.Drawing.Point(186, 0)
+        Me.pnlLoader.Controls.Add(Me.conBuilds)
+        Me.pnlLoader.Controls.Add(Me.conFarming)
+        Me.pnlLoader.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.pnlLoader.Location = New System.Drawing.Point(0, 120)
         Me.pnlLoader.Name = "pnlLoader"
-        Me.pnlLoader.Size = New System.Drawing.Size(765, 577)
-        Me.pnlLoader.TabIndex = 2
+        Me.pnlLoader.Size = New System.Drawing.Size(765, 457)
+        Me.pnlLoader.TabIndex = 4
+        '
+        'conFarming
+        '
+        Me.conFarming.Controls.Add(Me.pnlFarmCharacters)
+        Me.conFarming.Controls.Add(Me.pnlFarmWeapons)
+        Me.conFarming.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.conFarming.Location = New System.Drawing.Point(0, 0)
+        Me.conFarming.Name = "conFarming"
+        Me.conFarming.Size = New System.Drawing.Size(765, 457)
+        Me.conFarming.TabIndex = 4
+        '
+        'pnlFarmCharacters
+        '
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter4)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter8)
+        Me.pnlFarmCharacters.Controls.Add(Me.lblFarmableCharacters)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter6)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter5)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter3)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter1)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter2)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter0)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter7)
+        Me.pnlFarmCharacters.Location = New System.Drawing.Point(6, 20)
+        Me.pnlFarmCharacters.Name = "pnlFarmCharacters"
+        Me.pnlFarmCharacters.Size = New System.Drawing.Size(238, 270)
+        Me.pnlFarmCharacters.TabIndex = 3
+        '
+        'pbCharacter4
+        '
+        Me.pbCharacter4.Location = New System.Drawing.Point(82, 116)
+        Me.pbCharacter4.Name = "pbCharacter4"
+        Me.pbCharacter4.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter4.TabIndex = 0
+        Me.pbCharacter4.TabStop = False
+        '
+        'pbCharacter8
+        '
+        Me.pbCharacter8.Location = New System.Drawing.Point(159, 192)
+        Me.pbCharacter8.Name = "pbCharacter8"
+        Me.pbCharacter8.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter8.TabIndex = 0
+        Me.pbCharacter8.TabStop = False
+        '
+        'lblFarmableCharacters
+        '
+        Me.lblFarmableCharacters.AutoSize = True
+        Me.lblFarmableCharacters.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblFarmableCharacters.Location = New System.Drawing.Point(3, 8)
+        Me.lblFarmableCharacters.Name = "lblFarmableCharacters"
+        Me.lblFarmableCharacters.Size = New System.Drawing.Size(180, 22)
+        Me.lblFarmableCharacters.TabIndex = 1
+        Me.lblFarmableCharacters.Text = "Farmable Characters:"
+        '
+        'pbCharacter6
+        '
+        Me.pbCharacter6.Location = New System.Drawing.Point(6, 192)
+        Me.pbCharacter6.Name = "pbCharacter6"
+        Me.pbCharacter6.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter6.TabIndex = 0
+        Me.pbCharacter6.TabStop = False
+        '
+        'pbCharacter5
+        '
+        Me.pbCharacter5.Location = New System.Drawing.Point(159, 116)
+        Me.pbCharacter5.Name = "pbCharacter5"
+        Me.pbCharacter5.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter5.TabIndex = 0
+        Me.pbCharacter5.TabStop = False
+        '
+        'pbCharacter3
+        '
+        Me.pbCharacter3.Location = New System.Drawing.Point(6, 116)
+        Me.pbCharacter3.Name = "pbCharacter3"
+        Me.pbCharacter3.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter3.TabIndex = 0
+        Me.pbCharacter3.TabStop = False
+        '
+        'pbCharacter1
+        '
+        Me.pbCharacter1.Location = New System.Drawing.Point(82, 41)
+        Me.pbCharacter1.Name = "pbCharacter1"
+        Me.pbCharacter1.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter1.TabIndex = 0
+        Me.pbCharacter1.TabStop = False
+        '
+        'pbCharacter2
+        '
+        Me.pbCharacter2.Location = New System.Drawing.Point(159, 41)
+        Me.pbCharacter2.Name = "pbCharacter2"
+        Me.pbCharacter2.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter2.TabIndex = 0
+        Me.pbCharacter2.TabStop = False
+        '
+        'pbCharacter0
+        '
+        Me.pbCharacter0.Location = New System.Drawing.Point(6, 41)
+        Me.pbCharacter0.Name = "pbCharacter0"
+        Me.pbCharacter0.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter0.TabIndex = 0
+        Me.pbCharacter0.TabStop = False
+        '
+        'pbCharacter7
+        '
+        Me.pbCharacter7.Location = New System.Drawing.Point(82, 192)
+        Me.pbCharacter7.Name = "pbCharacter7"
+        Me.pbCharacter7.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter7.TabIndex = 0
+        Me.pbCharacter7.TabStop = False
         '
         'pnlFarmWeapons
         '
@@ -296,7 +455,7 @@ Partial Class formBase
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon19)
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon0)
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon13)
-        Me.pnlFarmWeapons.Location = New System.Drawing.Point(286, 120)
+        Me.pnlFarmWeapons.Location = New System.Drawing.Point(286, 20)
         Me.pnlFarmWeapons.Name = "pnlFarmWeapons"
         Me.pnlFarmWeapons.Size = New System.Drawing.Size(467, 348)
         Me.pnlFarmWeapons.TabIndex = 3
@@ -496,129 +655,24 @@ Partial Class formBase
         Me.pbWeapon13.TabIndex = 0
         Me.pbWeapon13.TabStop = False
         '
-        'pnlFarmCharacters
-        '
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter4)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter8)
-        Me.pnlFarmCharacters.Controls.Add(Me.lblFarmableCharacters)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter6)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter5)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter3)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter1)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter2)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter0)
-        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter7)
-        Me.pnlFarmCharacters.Location = New System.Drawing.Point(6, 120)
-        Me.pnlFarmCharacters.Name = "pnlFarmCharacters"
-        Me.pnlFarmCharacters.Size = New System.Drawing.Size(238, 270)
-        Me.pnlFarmCharacters.TabIndex = 3
-        '
-        'pbCharacter4
-        '
-        Me.pbCharacter4.Location = New System.Drawing.Point(82, 116)
-        Me.pbCharacter4.Name = "pbCharacter4"
-        Me.pbCharacter4.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter4.TabIndex = 0
-        Me.pbCharacter4.TabStop = False
-        '
-        'pbCharacter8
-        '
-        Me.pbCharacter8.Location = New System.Drawing.Point(159, 192)
-        Me.pbCharacter8.Name = "pbCharacter8"
-        Me.pbCharacter8.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter8.TabIndex = 0
-        Me.pbCharacter8.TabStop = False
-        '
-        'lblFarmableCharacters
-        '
-        Me.lblFarmableCharacters.AutoSize = True
-        Me.lblFarmableCharacters.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.lblFarmableCharacters.Location = New System.Drawing.Point(3, 8)
-        Me.lblFarmableCharacters.Name = "lblFarmableCharacters"
-        Me.lblFarmableCharacters.Size = New System.Drawing.Size(180, 22)
-        Me.lblFarmableCharacters.TabIndex = 1
-        Me.lblFarmableCharacters.Text = "Farmable Characters:"
-        '
-        'pbCharacter6
-        '
-        Me.pbCharacter6.Location = New System.Drawing.Point(6, 192)
-        Me.pbCharacter6.Name = "pbCharacter6"
-        Me.pbCharacter6.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter6.TabIndex = 0
-        Me.pbCharacter6.TabStop = False
-        '
-        'pbCharacter5
-        '
-        Me.pbCharacter5.Location = New System.Drawing.Point(159, 116)
-        Me.pbCharacter5.Name = "pbCharacter5"
-        Me.pbCharacter5.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter5.TabIndex = 0
-        Me.pbCharacter5.TabStop = False
-        '
-        'pbCharacter3
-        '
-        Me.pbCharacter3.Location = New System.Drawing.Point(6, 116)
-        Me.pbCharacter3.Name = "pbCharacter3"
-        Me.pbCharacter3.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter3.TabIndex = 0
-        Me.pbCharacter3.TabStop = False
-        '
-        'pbCharacter1
-        '
-        Me.pbCharacter1.Location = New System.Drawing.Point(82, 41)
-        Me.pbCharacter1.Name = "pbCharacter1"
-        Me.pbCharacter1.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter1.TabIndex = 0
-        Me.pbCharacter1.TabStop = False
-        '
-        'pbCharacter2
-        '
-        Me.pbCharacter2.Location = New System.Drawing.Point(159, 41)
-        Me.pbCharacter2.Name = "pbCharacter2"
-        Me.pbCharacter2.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter2.TabIndex = 0
-        Me.pbCharacter2.TabStop = False
-        '
-        'pbCharacter0
-        '
-        Me.pbCharacter0.Location = New System.Drawing.Point(6, 41)
-        Me.pbCharacter0.Name = "pbCharacter0"
-        Me.pbCharacter0.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter0.TabIndex = 0
-        Me.pbCharacter0.TabStop = False
-        '
-        'pbCharacter7
-        '
-        Me.pbCharacter7.Location = New System.Drawing.Point(82, 192)
-        Me.pbCharacter7.Name = "pbCharacter7"
-        Me.pbCharacter7.Size = New System.Drawing.Size(70, 70)
-        Me.pbCharacter7.TabIndex = 0
-        Me.pbCharacter7.TabStop = False
-        '
         'lblDate
         '
         Me.lblDate.AutoSize = True
         Me.lblDate.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.lblDate.Location = New System.Drawing.Point(24, 56)
+        Me.lblDate.Location = New System.Drawing.Point(3, 64)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(84, 16)
         Me.lblDate.TabIndex = 1
         Me.lblDate.Text = "Today's Date"
         '
-        'btnClose
+        'conBuilds
         '
-        Me.btnClose.FlatAppearance.BorderSize = 0
-        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClose.Font = New System.Drawing.Font("Montserrat Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClose.ForeColor = System.Drawing.Color.White
-        Me.btnClose.Location = New System.Drawing.Point(732, 3)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(30, 30)
-        Me.btnClose.TabIndex = 2
-        Me.btnClose.Text = "X"
-        Me.btnClose.UseVisualStyleBackColor = True
+        Me.conBuilds.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.conBuilds.Location = New System.Drawing.Point(0, 0)
+        Me.conBuilds.Name = "conBuilds"
+        Me.conBuilds.Size = New System.Drawing.Size(765, 457)
+        Me.conBuilds.TabIndex = 4
         '
         'formBase
         '
@@ -626,7 +680,7 @@ Partial Class formBase
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(39, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(951, 577)
-        Me.Controls.Add(Me.pnlLoader)
+        Me.Controls.Add(Me.pnlBase)
         Me.Controls.Add(Me.pnlMenu)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "formBase"
@@ -635,8 +689,22 @@ Partial Class formBase
         Me.pnlMenu.ResumeLayout(False)
         Me.pnlLogo.ResumeLayout(False)
         CType(Me.pbLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlBase.ResumeLayout(False)
+        Me.pnlBase.PerformLayout()
+        Me.pnlDrag.ResumeLayout(False)
         Me.pnlLoader.ResumeLayout(False)
-        Me.pnlLoader.PerformLayout()
+        Me.conFarming.ResumeLayout(False)
+        Me.pnlFarmCharacters.ResumeLayout(False)
+        Me.pnlFarmCharacters.PerformLayout()
+        CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter0, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlFarmWeapons.ResumeLayout(False)
         Me.pnlFarmWeapons.PerformLayout()
         CType(Me.pbWeapon10, System.ComponentModel.ISupportInitialize).EndInit()
@@ -662,17 +730,6 @@ Partial Class formBase
         CType(Me.pbWeapon19, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbWeapon0, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbWeapon13, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.pnlFarmCharacters.ResumeLayout(False)
-        Me.pnlFarmCharacters.PerformLayout()
-        CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter0, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbCharacter7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -681,33 +738,27 @@ Partial Class formBase
     Friend WithEvents pnlLogo As Panel
     Friend WithEvents pbLogo As PictureBox
     Friend WithEvents btnFarming As Button
-    Friend WithEvents btnCredits As Button
+    Friend WithEvents btnAbout As Button
     Friend WithEvents btnCharacterRecords As Button
     Friend WithEvents btnWeaponRecords As Button
     Friend WithEvents btnExp As Button
     Friend WithEvents btnBuilds As Button
     Friend WithEvents pnlNav As Panel
     Friend WithEvents lblName As Label
-    Friend WithEvents pnlLoader As Panel
+    Friend WithEvents pnlBase As Panel
     Friend WithEvents btnClose As Button
-    Friend WithEvents pnlFarmCharacters As Panel
-    Friend WithEvents pbCharacter4 As PictureBox
-    Friend WithEvents pbCharacter8 As PictureBox
-    Friend WithEvents lblFarmableCharacters As Label
-    Friend WithEvents pbCharacter6 As PictureBox
-    Friend WithEvents pbCharacter5 As PictureBox
-    Friend WithEvents pbCharacter3 As PictureBox
-    Friend WithEvents pbCharacter1 As PictureBox
-    Friend WithEvents pbCharacter2 As PictureBox
-    Friend WithEvents pbCharacter0 As PictureBox
-    Friend WithEvents pbCharacter7 As PictureBox
+    Friend WithEvents lblDate As Label
     Friend WithEvents pnlFarmWeapons As Panel
     Friend WithEvents pbWeapon10 As PictureBox
     Friend WithEvents pbWeapon17 As PictureBox
     Friend WithEvents pbWeapon7 As PictureBox
+    Friend WithEvents pbWeapon20 As PictureBox
+    Friend WithEvents pbWeapon22 As PictureBox
+    Friend WithEvents pbWeapon21 As PictureBox
     Friend WithEvents pbWeapon14 As PictureBox
     Friend WithEvents pbWeapon15 As PictureBox
     Friend WithEvents lblFarmableWeapons As Label
+    Friend WithEvents pbWeapon18 As PictureBox
     Friend WithEvents pbWeapon11 As PictureBox
     Friend WithEvents pbWeapon12 As PictureBox
     Friend WithEvents pbWeapon9 As PictureBox
@@ -719,12 +770,23 @@ Partial Class formBase
     Friend WithEvents pbWeapon3 As PictureBox
     Friend WithEvents pbWeapon2 As PictureBox
     Friend WithEvents pbWeapon16 As PictureBox
+    Friend WithEvents pbWeapon19 As PictureBox
     Friend WithEvents pbWeapon0 As PictureBox
     Friend WithEvents pbWeapon13 As PictureBox
-    Friend WithEvents pbWeapon20 As PictureBox
-    Friend WithEvents pbWeapon21 As PictureBox
-    Friend WithEvents pbWeapon18 As PictureBox
-    Friend WithEvents pbWeapon19 As PictureBox
-    Friend WithEvents pbWeapon22 As PictureBox
-    Friend WithEvents lblDate As Label
+    Friend WithEvents pnlFarmCharacters As Panel
+    Friend WithEvents pbCharacter4 As PictureBox
+    Friend WithEvents pbCharacter8 As PictureBox
+    Friend WithEvents lblFarmableCharacters As Label
+    Friend WithEvents pbCharacter6 As PictureBox
+    Friend WithEvents pbCharacter5 As PictureBox
+    Friend WithEvents pbCharacter3 As PictureBox
+    Friend WithEvents pbCharacter1 As PictureBox
+    Friend WithEvents pbCharacter2 As PictureBox
+    Friend WithEvents pbCharacter0 As PictureBox
+    Friend WithEvents pbCharacter7 As PictureBox
+    Friend WithEvents pnlLoader As Panel
+    Friend WithEvents pnlLine As Panel
+    Friend WithEvents conFarming As Panel
+    Friend WithEvents pnlDrag As Panel
+    Friend WithEvents conBuilds As Panel
 End Class
