@@ -19,6 +19,7 @@ Some known features of this program are:
 * Once the program is finished make the repository public.
 * Create a new section called **Browse** where it gives the user some websites to go to for more information than what could be displayed inside the program such as interactive map.
 * Find suggestions from the public and see if something like this should continue to be developed.
+* Create a feedback system within the program where it will send me emails from within the program.
 
 ## Socials
 
