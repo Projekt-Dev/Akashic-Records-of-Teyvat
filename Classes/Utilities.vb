@@ -6,18 +6,20 @@
 
 #Region "Help Functions"
 
-    Public Sub loadCharacterImages(images As Image())
+    Public Sub loadCharacterImages(img As Image())
         Dim i As Integer = 0
-        shuffleArray(images)
+        shuffleArray(img)
         For Each pb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
-            pb.BackgroundImage = images(i)
+            pb.BackgroundImage = img(i)
             pb.BackgroundImageLayout = formBase.BackgroundImageLayout.Stretch
             i += 1
         Next
     End Sub
     Public Sub loadWeaponImages(images As Image())
         Dim i As Integer = 0
-        shuffleArray(images)
+        If dayInt = 1 Then
+            shuffleArray(images)
+        End If
         For Each pb As PictureBox In wb 'Loops through all pictureboxes and fills them with an image.
             pb.BackgroundImage = images(i)
             pb.BackgroundImageLayout = formBase.BackgroundImageLayout.Stretch
@@ -41,7 +43,6 @@
         For i = 0 To arr.Length - 1
             swap(arr, i, i + ran.Next(n - i))
         Next
-
     End Sub
     Public Sub swap(array As Image(), a As Integer, b As Integer)
         Dim temp As Image = array(a)
@@ -109,7 +110,7 @@
             Case 1
                 loadWeaponImages(farms.wMonday)
             Case 2
-                loadWeaponImages(farms.wTuesday)
+                loadWeaponImages(farms.wMonday)
             Case 3
                 loadWeaponImages(farms.wMonday)
             Case 4

@@ -737,5 +737,8 @@
   <ItemGroup>
     <None Include="Resources\Emblem_Mondstadt.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image_Transparent.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

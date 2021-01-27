@@ -35,80 +35,81 @@ Partial Class formBase
         Me.lblName = New System.Windows.Forms.Label()
         Me.pnlLoader = New System.Windows.Forms.Panel()
         Me.pnlFarmWeapons = New System.Windows.Forms.Panel()
-        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox27 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon10 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon17 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon7 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon20 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon22 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon21 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon14 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon15 = New System.Windows.Forms.PictureBox()
         Me.lblFarmableWeapons = New System.Windows.Forms.Label()
-        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon18 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon11 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon12 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon9 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon8 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon4 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon6 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon5 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon1 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon3 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon2 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon16 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon19 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon0 = New System.Windows.Forms.PictureBox()
+        Me.pbWeapon13 = New System.Windows.Forms.PictureBox()
         Me.pnlFarmCharacters = New System.Windows.Forms.Panel()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter4 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter8 = New System.Windows.Forms.PictureBox()
         Me.lblFarmableCharacters = New System.Windows.Forms.Label()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter6 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter5 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter3 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter1 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter2 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter0 = New System.Windows.Forms.PictureBox()
+        Me.pbCharacter7 = New System.Windows.Forms.PictureBox()
         Me.btnClose = New System.Windows.Forms.Button()
-        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox31 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox32 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox33 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
+        Me.lblDate = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlLoader.SuspendLayout()
         Me.pnlFarmWeapons.SuspendLayout()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon0, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbWeapon13, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlFarmCharacters.SuspendLayout()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter0, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbCharacter7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -260,6 +261,7 @@ Partial Class formBase
         '
         Me.pnlLoader.Controls.Add(Me.pnlFarmWeapons)
         Me.pnlLoader.Controls.Add(Me.pnlFarmCharacters)
+        Me.pnlLoader.Controls.Add(Me.lblDate)
         Me.pnlLoader.Controls.Add(Me.btnClose)
         Me.pnlLoader.Controls.Add(Me.lblName)
         Me.pnlLoader.Dock = System.Windows.Forms.DockStyle.Fill
@@ -270,74 +272,98 @@ Partial Class formBase
         '
         'pnlFarmWeapons
         '
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox28)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox27)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox11)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox33)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox30)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox32)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox12)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox26)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon10)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon17)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon7)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon20)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon22)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon21)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon14)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon15)
         Me.pnlFarmWeapons.Controls.Add(Me.lblFarmableWeapons)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox31)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox25)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox13)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox24)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox14)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox23)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox15)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox22)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox16)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox21)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox17)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox20)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox29)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox18)
-        Me.pnlFarmWeapons.Controls.Add(Me.PictureBox19)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon18)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon11)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon12)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon9)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon8)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon4)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon6)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon5)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon1)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon3)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon2)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon16)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon19)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon0)
+        Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon13)
         Me.pnlFarmWeapons.Location = New System.Drawing.Point(262, 120)
         Me.pnlFarmWeapons.Name = "pnlFarmWeapons"
         Me.pnlFarmWeapons.Size = New System.Drawing.Size(467, 348)
         Me.pnlFarmWeapons.TabIndex = 3
         '
-        'PictureBox28
+        'pbWeapon10
         '
-        Me.PictureBox28.Location = New System.Drawing.Point(310, 117)
-        Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox28.TabIndex = 0
-        Me.PictureBox28.TabStop = False
+        Me.pbWeapon10.Location = New System.Drawing.Point(310, 117)
+        Me.pbWeapon10.Name = "pbWeapon10"
+        Me.pbWeapon10.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon10.TabIndex = 0
+        Me.pbWeapon10.TabStop = False
         '
-        'PictureBox27
+        'pbWeapon17
         '
-        Me.PictureBox27.Location = New System.Drawing.Point(386, 193)
-        Me.PictureBox27.Name = "PictureBox27"
-        Me.PictureBox27.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox27.TabIndex = 0
-        Me.PictureBox27.TabStop = False
+        Me.pbWeapon17.Location = New System.Drawing.Point(386, 193)
+        Me.pbWeapon17.Name = "pbWeapon17"
+        Me.pbWeapon17.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon17.TabIndex = 0
+        Me.pbWeapon17.TabStop = False
         '
-        'PictureBox11
+        'pbWeapon7
         '
-        Me.PictureBox11.Location = New System.Drawing.Point(82, 117)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox11.TabIndex = 0
-        Me.PictureBox11.TabStop = False
+        Me.pbWeapon7.Location = New System.Drawing.Point(82, 117)
+        Me.pbWeapon7.Name = "pbWeapon7"
+        Me.pbWeapon7.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon7.TabIndex = 0
+        Me.pbWeapon7.TabStop = False
         '
-        'PictureBox12
+        'pbWeapon20
         '
-        Me.PictureBox12.Location = New System.Drawing.Point(158, 193)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox12.TabIndex = 0
-        Me.PictureBox12.TabStop = False
+        Me.pbWeapon20.Location = New System.Drawing.Point(158, 269)
+        Me.pbWeapon20.Name = "pbWeapon20"
+        Me.pbWeapon20.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon20.TabIndex = 0
+        Me.pbWeapon20.TabStop = False
         '
-        'PictureBox26
+        'pbWeapon22
         '
-        Me.PictureBox26.Location = New System.Drawing.Point(234, 193)
-        Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox26.TabIndex = 0
-        Me.PictureBox26.TabStop = False
+        Me.pbWeapon22.Location = New System.Drawing.Point(310, 269)
+        Me.pbWeapon22.Name = "pbWeapon22"
+        Me.pbWeapon22.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon22.TabIndex = 0
+        Me.pbWeapon22.TabStop = False
+        '
+        'pbWeapon21
+        '
+        Me.pbWeapon21.Location = New System.Drawing.Point(234, 269)
+        Me.pbWeapon21.Name = "pbWeapon21"
+        Me.pbWeapon21.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon21.TabIndex = 0
+        Me.pbWeapon21.TabStop = False
+        '
+        'pbWeapon14
+        '
+        Me.pbWeapon14.Location = New System.Drawing.Point(158, 193)
+        Me.pbWeapon14.Name = "pbWeapon14"
+        Me.pbWeapon14.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon14.TabIndex = 0
+        Me.pbWeapon14.TabStop = False
+        '
+        'pbWeapon15
+        '
+        Me.pbWeapon15.Location = New System.Drawing.Point(234, 193)
+        Me.pbWeapon15.Name = "pbWeapon15"
+        Me.pbWeapon15.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon15.TabIndex = 0
+        Me.pbWeapon15.TabStop = False
         '
         'lblFarmableWeapons
         '
@@ -350,142 +376,158 @@ Partial Class formBase
         Me.lblFarmableWeapons.TabIndex = 1
         Me.lblFarmableWeapons.Text = "Farmable Weapons:"
         '
-        'PictureBox25
+        'pbWeapon18
         '
-        Me.PictureBox25.Location = New System.Drawing.Point(386, 117)
-        Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox25.TabIndex = 0
-        Me.PictureBox25.TabStop = False
+        Me.pbWeapon18.Location = New System.Drawing.Point(6, 269)
+        Me.pbWeapon18.Name = "pbWeapon18"
+        Me.pbWeapon18.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon18.TabIndex = 0
+        Me.pbWeapon18.TabStop = False
         '
-        'PictureBox13
+        'pbWeapon11
         '
-        Me.PictureBox13.Location = New System.Drawing.Point(6, 193)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox13.TabIndex = 0
-        Me.PictureBox13.TabStop = False
+        Me.pbWeapon11.Location = New System.Drawing.Point(386, 117)
+        Me.pbWeapon11.Name = "pbWeapon11"
+        Me.pbWeapon11.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon11.TabIndex = 0
+        Me.pbWeapon11.TabStop = False
         '
-        'PictureBox24
+        'pbWeapon12
         '
-        Me.PictureBox24.Location = New System.Drawing.Point(234, 117)
-        Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox24.TabIndex = 0
-        Me.PictureBox24.TabStop = False
+        Me.pbWeapon12.Location = New System.Drawing.Point(6, 193)
+        Me.pbWeapon12.Name = "pbWeapon12"
+        Me.pbWeapon12.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon12.TabIndex = 0
+        Me.pbWeapon12.TabStop = False
         '
-        'PictureBox14
+        'pbWeapon9
         '
-        Me.PictureBox14.Location = New System.Drawing.Point(158, 117)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox14.TabIndex = 0
-        Me.PictureBox14.TabStop = False
+        Me.pbWeapon9.Location = New System.Drawing.Point(234, 117)
+        Me.pbWeapon9.Name = "pbWeapon9"
+        Me.pbWeapon9.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon9.TabIndex = 0
+        Me.pbWeapon9.TabStop = False
         '
-        'PictureBox23
+        'pbWeapon8
         '
-        Me.PictureBox23.Location = New System.Drawing.Point(310, 41)
-        Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox23.TabIndex = 0
-        Me.PictureBox23.TabStop = False
+        Me.pbWeapon8.Location = New System.Drawing.Point(158, 117)
+        Me.pbWeapon8.Name = "pbWeapon8"
+        Me.pbWeapon8.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon8.TabIndex = 0
+        Me.pbWeapon8.TabStop = False
         '
-        'PictureBox15
+        'pbWeapon4
         '
-        Me.PictureBox15.Location = New System.Drawing.Point(6, 117)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox15.TabIndex = 0
-        Me.PictureBox15.TabStop = False
+        Me.pbWeapon4.Location = New System.Drawing.Point(310, 41)
+        Me.pbWeapon4.Name = "pbWeapon4"
+        Me.pbWeapon4.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon4.TabIndex = 0
+        Me.pbWeapon4.TabStop = False
         '
-        'PictureBox22
+        'pbWeapon6
         '
-        Me.PictureBox22.Location = New System.Drawing.Point(386, 41)
-        Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox22.TabIndex = 0
-        Me.PictureBox22.TabStop = False
+        Me.pbWeapon6.Location = New System.Drawing.Point(6, 117)
+        Me.pbWeapon6.Name = "pbWeapon6"
+        Me.pbWeapon6.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon6.TabIndex = 0
+        Me.pbWeapon6.TabStop = False
         '
-        'PictureBox16
+        'pbWeapon5
         '
-        Me.PictureBox16.Location = New System.Drawing.Point(82, 41)
-        Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox16.TabIndex = 0
-        Me.PictureBox16.TabStop = False
+        Me.pbWeapon5.Location = New System.Drawing.Point(386, 41)
+        Me.pbWeapon5.Name = "pbWeapon5"
+        Me.pbWeapon5.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon5.TabIndex = 0
+        Me.pbWeapon5.TabStop = False
         '
-        'PictureBox21
+        'pbWeapon1
         '
-        Me.PictureBox21.Location = New System.Drawing.Point(234, 41)
-        Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox21.TabIndex = 0
-        Me.PictureBox21.TabStop = False
+        Me.pbWeapon1.Location = New System.Drawing.Point(82, 41)
+        Me.pbWeapon1.Name = "pbWeapon1"
+        Me.pbWeapon1.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon1.TabIndex = 0
+        Me.pbWeapon1.TabStop = False
         '
-        'PictureBox17
+        'pbWeapon3
         '
-        Me.PictureBox17.Location = New System.Drawing.Point(158, 41)
-        Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox17.TabIndex = 0
-        Me.PictureBox17.TabStop = False
+        Me.pbWeapon3.Location = New System.Drawing.Point(234, 41)
+        Me.pbWeapon3.Name = "pbWeapon3"
+        Me.pbWeapon3.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon3.TabIndex = 0
+        Me.pbWeapon3.TabStop = False
         '
-        'PictureBox20
+        'pbWeapon2
         '
-        Me.PictureBox20.Location = New System.Drawing.Point(310, 193)
-        Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox20.TabIndex = 0
-        Me.PictureBox20.TabStop = False
+        Me.pbWeapon2.Location = New System.Drawing.Point(158, 41)
+        Me.pbWeapon2.Name = "pbWeapon2"
+        Me.pbWeapon2.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon2.TabIndex = 0
+        Me.pbWeapon2.TabStop = False
         '
-        'PictureBox18
+        'pbWeapon16
         '
-        Me.PictureBox18.Location = New System.Drawing.Point(6, 41)
-        Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox18.TabIndex = 0
-        Me.PictureBox18.TabStop = False
+        Me.pbWeapon16.Location = New System.Drawing.Point(310, 193)
+        Me.pbWeapon16.Name = "pbWeapon16"
+        Me.pbWeapon16.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon16.TabIndex = 0
+        Me.pbWeapon16.TabStop = False
         '
-        'PictureBox19
+        'pbWeapon19
         '
-        Me.PictureBox19.Location = New System.Drawing.Point(82, 193)
-        Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox19.TabIndex = 0
-        Me.PictureBox19.TabStop = False
+        Me.pbWeapon19.Location = New System.Drawing.Point(82, 269)
+        Me.pbWeapon19.Name = "pbWeapon19"
+        Me.pbWeapon19.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon19.TabIndex = 0
+        Me.pbWeapon19.TabStop = False
+        '
+        'pbWeapon0
+        '
+        Me.pbWeapon0.Location = New System.Drawing.Point(6, 41)
+        Me.pbWeapon0.Name = "pbWeapon0"
+        Me.pbWeapon0.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon0.TabIndex = 0
+        Me.pbWeapon0.TabStop = False
+        '
+        'pbWeapon13
+        '
+        Me.pbWeapon13.Location = New System.Drawing.Point(82, 193)
+        Me.pbWeapon13.Name = "pbWeapon13"
+        Me.pbWeapon13.Size = New System.Drawing.Size(70, 70)
+        Me.pbWeapon13.TabIndex = 0
+        Me.pbWeapon13.TabStop = False
         '
         'pnlFarmCharacters
         '
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox6)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox10)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter4)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter8)
         Me.pnlFarmCharacters.Controls.Add(Me.lblFarmableCharacters)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox8)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox7)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox5)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox3)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox4)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox2)
-        Me.pnlFarmCharacters.Controls.Add(Me.PictureBox9)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter6)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter5)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter3)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter1)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter2)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter0)
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter7)
         Me.pnlFarmCharacters.Location = New System.Drawing.Point(6, 120)
         Me.pnlFarmCharacters.Name = "pnlFarmCharacters"
         Me.pnlFarmCharacters.Size = New System.Drawing.Size(250, 270)
         Me.pnlFarmCharacters.TabIndex = 3
         '
-        'PictureBox6
+        'pbCharacter4
         '
-        Me.PictureBox6.Location = New System.Drawing.Point(89, 117)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox6.TabIndex = 0
-        Me.PictureBox6.TabStop = False
+        Me.pbCharacter4.Location = New System.Drawing.Point(89, 117)
+        Me.pbCharacter4.Name = "pbCharacter4"
+        Me.pbCharacter4.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter4.TabIndex = 0
+        Me.pbCharacter4.TabStop = False
         '
-        'PictureBox10
+        'pbCharacter8
         '
-        Me.PictureBox10.Location = New System.Drawing.Point(174, 193)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox10.TabIndex = 0
-        Me.PictureBox10.TabStop = False
+        Me.pbCharacter8.Location = New System.Drawing.Point(174, 193)
+        Me.pbCharacter8.Name = "pbCharacter8"
+        Me.pbCharacter8.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter8.TabIndex = 0
+        Me.pbCharacter8.TabStop = False
         '
         'lblFarmableCharacters
         '
@@ -498,61 +540,61 @@ Partial Class formBase
         Me.lblFarmableCharacters.TabIndex = 1
         Me.lblFarmableCharacters.Text = "Farmable Characters:"
         '
-        'PictureBox8
+        'pbCharacter6
         '
-        Me.PictureBox8.Location = New System.Drawing.Point(6, 193)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox8.TabIndex = 0
-        Me.PictureBox8.TabStop = False
+        Me.pbCharacter6.Location = New System.Drawing.Point(6, 193)
+        Me.pbCharacter6.Name = "pbCharacter6"
+        Me.pbCharacter6.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter6.TabIndex = 0
+        Me.pbCharacter6.TabStop = False
         '
-        'PictureBox7
+        'pbCharacter5
         '
-        Me.PictureBox7.Location = New System.Drawing.Point(174, 117)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox7.TabIndex = 0
-        Me.PictureBox7.TabStop = False
+        Me.pbCharacter5.Location = New System.Drawing.Point(174, 117)
+        Me.pbCharacter5.Name = "pbCharacter5"
+        Me.pbCharacter5.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter5.TabIndex = 0
+        Me.pbCharacter5.TabStop = False
         '
-        'PictureBox5
+        'pbCharacter3
         '
-        Me.PictureBox5.Location = New System.Drawing.Point(6, 117)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox5.TabIndex = 0
-        Me.PictureBox5.TabStop = False
+        Me.pbCharacter3.Location = New System.Drawing.Point(6, 117)
+        Me.pbCharacter3.Name = "pbCharacter3"
+        Me.pbCharacter3.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter3.TabIndex = 0
+        Me.pbCharacter3.TabStop = False
         '
-        'PictureBox3
+        'pbCharacter1
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(89, 41)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
+        Me.pbCharacter1.Location = New System.Drawing.Point(89, 41)
+        Me.pbCharacter1.Name = "pbCharacter1"
+        Me.pbCharacter1.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter1.TabIndex = 0
+        Me.pbCharacter1.TabStop = False
         '
-        'PictureBox4
+        'pbCharacter2
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(174, 41)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox4.TabIndex = 0
-        Me.PictureBox4.TabStop = False
+        Me.pbCharacter2.Location = New System.Drawing.Point(174, 41)
+        Me.pbCharacter2.Name = "pbCharacter2"
+        Me.pbCharacter2.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter2.TabIndex = 0
+        Me.pbCharacter2.TabStop = False
         '
-        'PictureBox2
+        'pbCharacter0
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(6, 41)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
+        Me.pbCharacter0.Location = New System.Drawing.Point(6, 41)
+        Me.pbCharacter0.Name = "pbCharacter0"
+        Me.pbCharacter0.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter0.TabIndex = 0
+        Me.pbCharacter0.TabStop = False
         '
-        'PictureBox9
+        'pbCharacter7
         '
-        Me.PictureBox9.Location = New System.Drawing.Point(89, 193)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox9.TabIndex = 0
-        Me.PictureBox9.TabStop = False
+        Me.pbCharacter7.Location = New System.Drawing.Point(89, 193)
+        Me.pbCharacter7.Name = "pbCharacter7"
+        Me.pbCharacter7.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacter7.TabIndex = 0
+        Me.pbCharacter7.TabStop = False
         '
         'btnClose
         '
@@ -567,45 +609,16 @@ Partial Class formBase
         Me.btnClose.Text = "X"
         Me.btnClose.UseVisualStyleBackColor = True
         '
-        'PictureBox29
+        'lblDate
         '
-        Me.PictureBox29.Location = New System.Drawing.Point(82, 269)
-        Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox29.TabIndex = 0
-        Me.PictureBox29.TabStop = False
-        '
-        'PictureBox31
-        '
-        Me.PictureBox31.Location = New System.Drawing.Point(6, 269)
-        Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox31.TabIndex = 0
-        Me.PictureBox31.TabStop = False
-        '
-        'PictureBox32
-        '
-        Me.PictureBox32.Location = New System.Drawing.Point(234, 269)
-        Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox32.TabIndex = 0
-        Me.PictureBox32.TabStop = False
-        '
-        'PictureBox33
-        '
-        Me.PictureBox33.Location = New System.Drawing.Point(158, 269)
-        Me.PictureBox33.Name = "PictureBox33"
-        Me.PictureBox33.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox33.TabIndex = 0
-        Me.PictureBox33.TabStop = False
-        '
-        'PictureBox30
-        '
-        Me.PictureBox30.Location = New System.Drawing.Point(310, 269)
-        Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(70, 70)
-        Me.PictureBox30.TabIndex = 0
-        Me.PictureBox30.TabStop = False
+        Me.lblDate.AutoSize = True
+        Me.lblDate.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblDate.Location = New System.Drawing.Point(24, 56)
+        Me.lblDate.Name = "lblDate"
+        Me.lblDate.Size = New System.Drawing.Size(84, 16)
+        Me.lblDate.TabIndex = 1
+        Me.lblDate.Text = "Today's Date"
         '
         'formBase
         '
@@ -626,40 +639,40 @@ Partial Class formBase
         Me.pnlLoader.PerformLayout()
         Me.pnlFarmWeapons.ResumeLayout(False)
         Me.pnlFarmWeapons.PerformLayout()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon0, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbWeapon13, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlFarmCharacters.ResumeLayout(False)
         Me.pnlFarmCharacters.PerformLayout()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter0, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbCharacter7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -678,39 +691,40 @@ Partial Class formBase
     Friend WithEvents pnlLoader As Panel
     Friend WithEvents btnClose As Button
     Friend WithEvents pnlFarmCharacters As Panel
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents pbCharacter4 As PictureBox
+    Friend WithEvents pbCharacter8 As PictureBox
     Friend WithEvents lblFarmableCharacters As Label
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents pbCharacter6 As PictureBox
+    Friend WithEvents pbCharacter5 As PictureBox
+    Friend WithEvents pbCharacter3 As PictureBox
+    Friend WithEvents pbCharacter1 As PictureBox
+    Friend WithEvents pbCharacter2 As PictureBox
+    Friend WithEvents pbCharacter0 As PictureBox
+    Friend WithEvents pbCharacter7 As PictureBox
     Friend WithEvents pnlFarmWeapons As Panel
-    Friend WithEvents PictureBox28 As PictureBox
-    Friend WithEvents PictureBox27 As PictureBox
-    Friend WithEvents PictureBox11 As PictureBox
-    Friend WithEvents PictureBox12 As PictureBox
-    Friend WithEvents PictureBox26 As PictureBox
+    Friend WithEvents pbWeapon10 As PictureBox
+    Friend WithEvents pbWeapon17 As PictureBox
+    Friend WithEvents pbWeapon7 As PictureBox
+    Friend WithEvents pbWeapon14 As PictureBox
+    Friend WithEvents pbWeapon15 As PictureBox
     Friend WithEvents lblFarmableWeapons As Label
-    Friend WithEvents PictureBox25 As PictureBox
-    Friend WithEvents PictureBox13 As PictureBox
-    Friend WithEvents PictureBox24 As PictureBox
-    Friend WithEvents PictureBox14 As PictureBox
-    Friend WithEvents PictureBox23 As PictureBox
-    Friend WithEvents PictureBox15 As PictureBox
-    Friend WithEvents PictureBox22 As PictureBox
-    Friend WithEvents PictureBox16 As PictureBox
-    Friend WithEvents PictureBox21 As PictureBox
-    Friend WithEvents PictureBox17 As PictureBox
-    Friend WithEvents PictureBox20 As PictureBox
-    Friend WithEvents PictureBox18 As PictureBox
-    Friend WithEvents PictureBox19 As PictureBox
-    Friend WithEvents PictureBox33 As PictureBox
-    Friend WithEvents PictureBox32 As PictureBox
-    Friend WithEvents PictureBox31 As PictureBox
-    Friend WithEvents PictureBox29 As PictureBox
-    Friend WithEvents PictureBox30 As PictureBox
+    Friend WithEvents pbWeapon11 As PictureBox
+    Friend WithEvents pbWeapon12 As PictureBox
+    Friend WithEvents pbWeapon9 As PictureBox
+    Friend WithEvents pbWeapon8 As PictureBox
+    Friend WithEvents pbWeapon4 As PictureBox
+    Friend WithEvents pbWeapon6 As PictureBox
+    Friend WithEvents pbWeapon5 As PictureBox
+    Friend WithEvents pbWeapon1 As PictureBox
+    Friend WithEvents pbWeapon3 As PictureBox
+    Friend WithEvents pbWeapon2 As PictureBox
+    Friend WithEvents pbWeapon16 As PictureBox
+    Friend WithEvents pbWeapon0 As PictureBox
+    Friend WithEvents pbWeapon13 As PictureBox
+    Friend WithEvents pbWeapon20 As PictureBox
+    Friend WithEvents pbWeapon21 As PictureBox
+    Friend WithEvents pbWeapon18 As PictureBox
+    Friend WithEvents pbWeapon19 As PictureBox
+    Friend WithEvents pbWeapon22 As PictureBox
+    Friend WithEvents lblDate As Label
 End Class
