@@ -1,10 +1,10 @@
 ﻿Imports System.Runtime.InteropServices
 Public Class formBase
-    Dim utils As Utilities = New Utilities
+    Dim farm As Farmables = New Farmables
     Private Sub base_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Region = Region.FromHrgn(CreateRoundRgn(0, 0, Width, Height, 20, 20))
         onButtonSelected(pnlNav, btnFarming)
-        utils.farmables()
+        farm.farmables()
     End Sub
 #Region "Events"
     <DllImport("Gdi32.dll", EntryPoint:="CreateRoundRectRgn")>'Creates round form border

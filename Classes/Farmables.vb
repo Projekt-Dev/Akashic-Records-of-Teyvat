@@ -1,4 +1,4 @@
-﻿Public Class Utilities
+﻿Public Class Farmables
     Public cb As List(Of PictureBox) = New List(Of PictureBox)() 'Creates of list of PictureBoxes for characters
     Public wb As List(Of PictureBox) = New List(Of PictureBox)() 'Creates of list of PictureBoxes for weapons
     Dim dayInt As Integer = Date.Today.DayOfWeek ' From a range of 0-6 determines what today is

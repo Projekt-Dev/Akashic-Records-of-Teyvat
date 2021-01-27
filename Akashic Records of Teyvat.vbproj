@@ -73,7 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\FarmableArrays.vb" />
-    <Compile Include="Classes\Utilities.vb" />
+    <Compile Include="Classes\Farmables.vb" />
     <Compile Include="Main.vb">
       <SubType>Form</SubType>
     </Compile>

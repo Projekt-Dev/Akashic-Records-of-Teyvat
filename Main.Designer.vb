@@ -22,7 +22,7 @@ Partial Class formBase
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.pnlMenu = New System.Windows.Forms.Panel()
         Me.pnlNav = New System.Windows.Forms.Panel()
         Me.btnCredits = New System.Windows.Forms.Button()
         Me.btnCharacterRecords = New System.Windows.Forms.Button()
@@ -30,8 +30,8 @@ Partial Class formBase
         Me.btnExp = New System.Windows.Forms.Button()
         Me.btnBuilds = New System.Windows.Forms.Button()
         Me.btnFarming = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.pnlLogo = New System.Windows.Forms.Panel()
+        Me.pbLogo = New System.Windows.Forms.PictureBox()
         Me.lblName = New System.Windows.Forms.Label()
         Me.pnlLoader = New System.Windows.Forms.Panel()
         Me.pnlFarmWeapons = New System.Windows.Forms.Panel()
@@ -72,9 +72,9 @@ Partial Class formBase
         Me.pbCharacter7 = New System.Windows.Forms.PictureBox()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlMenu.SuspendLayout()
+        Me.pnlLogo.SuspendLayout()
+        CType(Me.pbLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlLoader.SuspendLayout()
         Me.pnlFarmWeapons.SuspendLayout()
         CType(Me.pbWeapon10, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -112,22 +112,22 @@ Partial Class formBase
         CType(Me.pbCharacter7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Panel1
+        'pnlMenu
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(17, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.pnlNav)
-        Me.Panel1.Controls.Add(Me.btnCredits)
-        Me.Panel1.Controls.Add(Me.btnCharacterRecords)
-        Me.Panel1.Controls.Add(Me.btnWeaponRecords)
-        Me.Panel1.Controls.Add(Me.btnExp)
-        Me.Panel1.Controls.Add(Me.btnBuilds)
-        Me.Panel1.Controls.Add(Me.btnFarming)
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(186, 577)
-        Me.Panel1.TabIndex = 0
+        Me.pnlMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.pnlMenu.Controls.Add(Me.pnlNav)
+        Me.pnlMenu.Controls.Add(Me.btnCredits)
+        Me.pnlMenu.Controls.Add(Me.btnCharacterRecords)
+        Me.pnlMenu.Controls.Add(Me.btnWeaponRecords)
+        Me.pnlMenu.Controls.Add(Me.btnExp)
+        Me.pnlMenu.Controls.Add(Me.btnBuilds)
+        Me.pnlMenu.Controls.Add(Me.btnFarming)
+        Me.pnlMenu.Controls.Add(Me.pnlLogo)
+        Me.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left
+        Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
+        Me.pnlMenu.Name = "pnlMenu"
+        Me.pnlMenu.Size = New System.Drawing.Size(186, 577)
+        Me.pnlMenu.TabIndex = 0
         '
         'pnlNav
         '
@@ -227,24 +227,24 @@ Partial Class formBase
         Me.btnFarming.Text = "FARMING"
         Me.btnFarming.UseVisualStyleBackColor = False
         '
-        'Panel2
+        'pnlLogo
         '
-        Me.Panel2.Controls.Add(Me.PictureBox1)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(186, 120)
-        Me.Panel2.TabIndex = 1
+        Me.pnlLogo.Controls.Add(Me.pbLogo)
+        Me.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pnlLogo.Location = New System.Drawing.Point(0, 0)
+        Me.pnlLogo.Name = "pnlLogo"
+        Me.pnlLogo.Size = New System.Drawing.Size(186, 120)
+        Me.pnlLogo.TabIndex = 1
         '
-        'PictureBox1
+        'pbLogo
         '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(186, 120)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.pbLogo.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pbLogo.Location = New System.Drawing.Point(0, 0)
+        Me.pbLogo.Name = "pbLogo"
+        Me.pbLogo.Size = New System.Drawing.Size(186, 120)
+        Me.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbLogo.TabIndex = 1
+        Me.pbLogo.TabStop = False
         '
         'lblName
         '
@@ -627,14 +627,14 @@ Partial Class formBase
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(39, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(951, 577)
         Me.Controls.Add(Me.pnlLoader)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.pnlMenu)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "formBase"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "formBase"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlMenu.ResumeLayout(False)
+        Me.pnlLogo.ResumeLayout(False)
+        CType(Me.pbLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlLoader.ResumeLayout(False)
         Me.pnlLoader.PerformLayout()
         Me.pnlFarmWeapons.ResumeLayout(False)
@@ -677,9 +677,9 @@ Partial Class formBase
 
     End Sub
 
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents pnlMenu As Panel
+    Friend WithEvents pnlLogo As Panel
+    Friend WithEvents pbLogo As PictureBox
     Friend WithEvents btnFarming As Button
     Friend WithEvents btnCredits As Button
     Friend WithEvents btnCharacterRecords As Button
