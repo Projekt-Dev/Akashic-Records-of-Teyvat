@@ -16,10 +16,16 @@
         Next
     End Sub
     Public Sub loadWeaponImages(images As Image())
-        Dim i As Integer = 0
-        If dayInt = 1 Then
-            shuffleArray(images)
+        If wb.Count > images.Length Then
+            wb.Remove(formBase.pbWeapon18)
+            wb.Remove(formBase.pbWeapon19)
+            wb.Remove(formBase.pbWeapon20)
+            wb.Remove(formBase.pbWeapon21)
+            wb.Remove(formBase.pbWeapon22)
+            formBase.pnlFarmWeapons.Height = 270
         End If
+        Dim i As Integer = 0
+        shuffleArray(images)
         For Each pb As PictureBox In wb 'Loops through all pictureboxes and fills them with an image.
             pb.BackgroundImage = images(i)
             pb.BackgroundImageLayout = formBase.BackgroundImageLayout.Stretch
@@ -27,8 +33,7 @@
         Next
     End Sub
     Private Sub labelText(text As String)
-        formBase.lblFarmableCharacters.Text = text
-        formBase.lblFarmableWeapons.Text = text
+        formBase.lblDate.Text = text
     End Sub
 
 #End Region

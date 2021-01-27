@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class formBase
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class formBase
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.pnlNav = New System.Windows.Forms.Panel()
@@ -250,7 +250,7 @@ Partial Class formBase
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Montserrat", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblName.ForeColor = System.Drawing.Color.Crimson
         Me.lblName.Location = New System.Drawing.Point(20, 17)
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(157, 39)
@@ -369,7 +369,7 @@ Partial Class formBase
         '
         Me.lblFarmableWeapons.AutoSize = True
         Me.lblFarmableWeapons.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFarmableWeapons.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblFarmableWeapons.ForeColor = System.Drawing.Color.Crimson
         Me.lblFarmableWeapons.Location = New System.Drawing.Point(3, 8)
         Me.lblFarmableWeapons.Name = "lblFarmableWeapons"
         Me.lblFarmableWeapons.Size = New System.Drawing.Size(169, 22)
@@ -533,7 +533,7 @@ Partial Class formBase
         '
         Me.lblFarmableCharacters.AutoSize = True
         Me.lblFarmableCharacters.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.Crimson
         Me.lblFarmableCharacters.Location = New System.Drawing.Point(3, 8)
         Me.lblFarmableCharacters.Name = "lblFarmableCharacters"
         Me.lblFarmableCharacters.Size = New System.Drawing.Size(180, 22)

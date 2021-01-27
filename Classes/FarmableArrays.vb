@@ -30,12 +30,7 @@
         My.Resources.Weapon_Blackcliff_Warbow,
         My.Resources.Weapon_The_Viridescent_Hunt,
         My.Resources.Weapon_Blackcliff_Agate,
-        My.Resources.Weapon_Royal_Grimoire,
-        My.Resources.Image_Transparent,
-        My.Resources.Image_Transparent,
-        My.Resources.Image_Transparent,
-        My.Resources.Image_Transparent,
-        My.Resources.Image_Transparent
+        My.Resources.Weapon_Royal_Grimoire
     }
 #End Region
 #Region "Tuesday"
