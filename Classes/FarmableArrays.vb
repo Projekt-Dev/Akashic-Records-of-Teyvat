@@ -1,15 +1,15 @@
 ﻿Public Class FarmableArrays
 #Region "Monday & Thursday"
     Public c1 As Image() = {
-        My.Resources.port_Klee,
-        My.Resources.port_Tartaglia,
-        My.Resources.port_Sucrose,
-        My.Resources.port_QiQi,
-        My.Resources.port_Keqing,
-        My.Resources.port_barbra,
-        My.Resources.port_Amber,
-        My.Resources.port_Diona,
-        My.Resources.port_Ningguang
+        My.Resources.portSmall_Klee,
+        My.Resources.portSmall_Tartaglia,
+        My.Resources.portSmall_Sucrose,
+        My.Resources.portSmall_QiQi,
+        My.Resources.portSmall_Keqing,
+        My.Resources.portSmall_Barbra,
+        My.Resources.portSmall_Amber,
+        My.Resources.portSmall_Diona,
+        My.Resources.portSmall_Ningguang
     }
 
     Public w1 As Image() = {
@@ -36,15 +36,15 @@
 
 #Region "Tuesday & Friday"
     Public c2 As Image() = {
-           My.Resources.port_Jean,
-           My.Resources.port_Mona,
-           My.Resources.port_Ganyu,
-           My.Resources.port_Diluc,
-           My.Resources.port_Razor,
-           My.Resources.port_Noelle,
-           My.Resources.port_Bennet,
-           My.Resources.port_XiangLing,
-           My.Resources.port_Chongyun
+           My.Resources.portSmall_Jean,
+           My.Resources.portSmall_Mona,
+           My.Resources.portSmall_Ganyu,
+           My.Resources.portSmall_Diluc,
+           My.Resources.portSmall_Razor,
+           My.Resources.portSmall_Noelle,
+           My.Resources.portSmall_Bennet,
+           My.Resources.portSmall_XiangLing,
+           My.Resources.portSmall_Chongyun
     }
     Public w2 As Image() = {
            My.Resources.Weapon_Skyward_Atlas,
@@ -75,15 +75,15 @@
 
 #Region "Wednesday & Saturday"
     Public c3 As Image() = {
-        My.Resources.port_Venti,
-        My.Resources.port_Zhongli,
-        My.Resources.port_Albedo,
-        My.Resources.port_Fischl,
-        My.Resources.port_Lisa,
-        My.Resources.port_Keaya,
-        My.Resources.port_Xinqui,
-        My.Resources.port_Xinyan,
-        My.Resources.port_Beidou
+        My.Resources.portSmall_Venti,
+        My.Resources.portSmall_Zhongli,
+        My.Resources.portSmall_Albedo,
+        My.Resources.portSmall_Fischl,
+        My.Resources.portSmall_Lisa,
+        My.Resources.portSmall_Keaya,
+        My.Resources.portSmall_Xinqui,
+        My.Resources.portSmall_Xinyan,
+        My.Resources.portSmall_Beidou
     }
     Public w3 As Image() = {
             My.Resources.Weapon_Mappa_Mare,

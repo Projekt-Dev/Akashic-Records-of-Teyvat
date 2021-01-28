@@ -118,404 +118,95 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="artifact_Archaic_Feather_of_Jagged_Peaks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Archaic_Feather_of_Jagged_Peaks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Archaic_Flower_of_Creviced_Cliff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Archaic_Flower_of_Creviced_Cliff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Archaic_Goblet_of_Chiseled_Crag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Archaic_Goblet_of_Chiseled_Crag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Archaic_Mask_of_Solitude_Basalt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Archaic_Mask_of_Solitude_Basalt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Archaic_Sundial_of_Enduring_Jade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Archaic_Sundial_of_Enduring_Jade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Blizzard_Broken_Rime_s_Echo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Blizzard_Broken_Rime's_Echo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Blizzard_Frost_Weaved_Dignity" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Blizzard_Frost-Weaved_Dignity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Blizzard_Frozen_Homeland_s_Demise" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Blizzard_Frozen_Homeland's_Demise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Blizzard_Icebreaker_s_Resolve" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Blizzard_Icebreaker's_Resolve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Blizzard_Snowswept_Memory" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Blizzard_Snowswept_Memory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Bloodstained_Black_Plume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Bloodstained_Black_Plume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Bloodstained_Chevalier_s_Goblet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Bloodstained_Chevalier's_Goblet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Bloodstained_Final_Hour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Bloodstained_Final_Hour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Bloodstained_Flower_of_Iron" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Bloodstained_Flower_of_Iron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Bloodstained_Iron_Mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Bloodstained_Iron_Mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Gladiator_s_Destiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Gladiator's_Destiny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Gladiator_s_Intoxication" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Gladiator's_Intoxication.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Gladiator_s_Longing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Gladiator's_Longing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Gladiator_s_Nostalgia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Gladiator's_Nostalgia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Gladiator_s_Triumphus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Gladiator's_Triumphus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Heart_Copper_Compass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Heart_Copper_Compass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Heart_Gilded_Corsage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Heart_Gilded_Corsage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Heart_Goblet_of_Thundering_Deep" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Heart_Goblet_of_Thundering_Deep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Heart_Gust_of_Nostalgia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Heart_Gust_of_Nostalgia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Heart_Wine_Stained_Tricorne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Heart_Wine-Stained_Tricorne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Lavawalker_s_Epiphany" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Lavawalker's_Epiphany.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Lavawalker_s_Resolution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Lavawalker's_Resolution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Lavawalker_s_Salvation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Lavawalker's_Salvation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Lavawalker_s_Torment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Lavawalker's_Torment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Lavawalker_s_Wisdom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Lavawalker's_Wisdom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Maiden_s_Distant_Love" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Maiden's_Distant_Love.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Maiden_s_Fading_Beauty" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Maiden's_Fading_Beauty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Maiden_s_Fleeting_Leisure" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Maiden's_Fleeting_Leisure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Maiden_s_Heart_stricken_Infatuation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Maiden's_Heart-stricken_Infatuation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Maiden_s_Passing_Youth" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Maiden's_Passing_Youth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Royal_Flora" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Royal_Flora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Royal_Masque" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Royal_Masque.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Royal_Plume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Royal_Plume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Royal_Pocket_Watch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Royal_Pocket_Watch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Royal_Silver_Urn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Royal_Silver_Urn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Summer_Night_s_Bloom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Summer_Night's_Bloom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Summer_Night_s_Finale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Summer_Night's_Finale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Summer_Night_s_Mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Summer_Night's_Mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Summer_Night_s_Moment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Summer_Night's_Moment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Summer_Night_s_Waterballoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Summer_Night's_Waterballoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundering_Hourglass_of_Thunder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundering_Hourglass_of_Thunder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundering_Omen_of_Thunderstorm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundering_Omen_of_Thunderstorm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundering_Survivor_of_Catastrophe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundering_Survivor_of_Catastrophe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundering_Thunderbird_s_Mercy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundering_Thunderbird's_Mercy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundering_Thunder_Summoner_s_Crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundering_Thunder_Summoner's_Crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundersoother_s_Diadem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundersoother's_Diadem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundersoother_s_Goblet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundersoother's_Goblet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundersoother_s_Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundersoother's_Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundersoother_s_Hour_of_Soothing_Thunder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundersoother's_Hour_of_Soothing_Thunder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Thundersoother_s_Plume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Thundersoother's_Plume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Viridescent_Arrow_Feather" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Viridescent_Arrow_Feather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Viridescent_In_Remembrance_of_Viridescent_Fields" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Viridescent_In_Remembrance_of_Viridescent_Fields.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Viridescent_Venerer_s_Determination" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Viridescent_Venerer's_Determination.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Viridescent_Venerer_s_Diadem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Viridescent_Venerer's_Diadem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Viridescent_Venerer_s_Vessel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Viridescent_Venerer's_Vessel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Wanderer_s_Dawnlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Wanderer's_Dawnlight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Wanderer_s_Final_Hour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Wanderer's_Final_Hour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Wanderer_s_String_Kettle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Wanderer's_String_Kettle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Wanderer_s_Top_Hat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Wanderer's_Top_Hat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Wander_s_Arrow_Feather" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Wander's_Arrow_Feather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Witch_s_End_Time" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Witch's_End_Time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Witch_s_Ever_Burning_Plume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Witch's_Ever-Burning_Plume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Witch_s_Flower_of_Blaze" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Witch's_Flower_of_Blaze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Witch_s_Heart_Flames" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Witch's_Heart_Flames.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artifact_Witch_s_Scorching_Hat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\artifact_Witch's_Scorching_Hat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Albedo_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Albedo_Card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Amber_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Amber_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Barbara_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Barbara_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Beidou_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Beidou_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Bennett_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Bennett_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Chongyun_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Chongyun_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Diluc_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Diluc_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Diona_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Diona_Card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Fischl_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Fischl_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Ganyu_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Ganyu_Card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Jean_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Jean_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Kaeya_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Kaeya_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Keqing_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Keqing_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Klee_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Klee_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Lisa_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Lisa_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Mona_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Mona_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Ningguang_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Ningguang_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Noelle_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Noelle_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Qiqi_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Qiqi_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Razor_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Razor_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Sucrose_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Sucrose_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Tartaglia_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Tartaglia_Card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Venti_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Venti_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Xiangling_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Xiangling_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Xiao_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Xiao_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character_Xingqiu_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Xingqiu_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Character_Xinyan_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Character_Xinyan_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Character_Zhongli_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Zhongli_Card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Albedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Albedo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Emblem_Liyue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Emblem_Liyue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Amber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Amber.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Emblem_Mondstadt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Emblem_Mondstadt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Barbra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Barbra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Albedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Albedo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Beidou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Beidou.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Amber" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Amber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Bennet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Bennet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_barbra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_barbra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Chongyun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Chongyun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Beidou" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Beidou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Diluc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Diluc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Bennet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Bennet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Diona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Diona.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Chongyun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Chongyun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Fischl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Fischl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Diluc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Diluc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Ganyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Ganyu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Diona" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Diona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Jean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Jean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Fischl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Fischl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Keaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Keaya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Ganyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Ganyu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Keqing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Keqing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Jean" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Jean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Klee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Klee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Keaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Keaya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Lisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Lisa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Keqing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Keqing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_McF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_McF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Klee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Klee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_McM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_McM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Lisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Lisa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Mona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Mona.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_mcF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_mcF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Ningguang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Ningguang.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_mcM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_mcM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Noelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Noelle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Mona" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Mona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_QiQi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_QiQi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Ningguang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Ningguang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Razor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Razor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Noelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Noelle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Sucrose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Sucrose.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_QiQi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_QiQi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Tartaglia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Tartaglia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Razor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Razor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Venti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Venti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Sucrose" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Sucrose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_XiangLing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_XiangLing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Tartaglia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Tartaglia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Xinqui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Xinqui.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Venti" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Venti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Xinyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Xinyan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="port_Xaio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Xaio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="port_XiangLing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_XiangLing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="port_Xinqui" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Xinqui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="port_Xinyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Xinyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="port_Zhongli" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\port_Zhongli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Random_Adventure_Experience" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Random_Adventure_Experience.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Random_Character_Experience" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Random_Character_Experience.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Random_Item_Acquaint_Fate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Random_Item_Acquaint_Fate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portSmall_Zhongli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portSmall_Zhongli.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Random_Item_Adventurer_s_Experience" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Random_Item_Adventurer's_Experience.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -537,12 +228,6 @@
   </data>
   <data name="Random_Mondstadt_Reputation_EXP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Random_Mondstadt_Reputation_EXP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Traveler_Female_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Traveler_Female_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Traveler_Male_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Traveler_Male_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Weapon_Amos_Bow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Weapon_Amos_Bow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

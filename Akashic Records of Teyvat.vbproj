@@ -398,9 +398,7 @@
   <ItemGroup>
     <None Include="Resources\Weapon_Wolf%27s_Gravestone.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\ports\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\artifact_Archaic_Feather_of_Jagged_Peaks.png" />
   </ItemGroup>
@@ -739,6 +737,99 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Image_Transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_Albedo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Amber.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Barbra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Beidou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Bennet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Chongyun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Diluc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Diona.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Fischl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Ganyu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Jean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Keaya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Keqing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Klee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Lisa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_McF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_McM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Mona.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Ningguang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Noelle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_QiQi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Razor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Sucrose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Tartaglia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Vent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_XiangLing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Xinqui.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Xinyan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Zhongli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Albedo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Venti.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

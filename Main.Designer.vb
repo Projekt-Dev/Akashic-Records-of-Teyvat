@@ -36,6 +36,7 @@ Partial Class formBase
         Me.pnlBase = New System.Windows.Forms.Panel()
         Me.pnlDrag = New System.Windows.Forms.Panel()
         Me.btnClose = New System.Windows.Forms.Button()
+        Me.lblDesc = New System.Windows.Forms.Label()
         Me.pnlLine = New System.Windows.Forms.Panel()
         Me.pnlLoader = New System.Windows.Forms.Panel()
         Me.conFarming = New System.Windows.Forms.Panel()
@@ -75,8 +76,8 @@ Partial Class formBase
         Me.pbWeapon19 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon0 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon13 = New System.Windows.Forms.PictureBox()
-        Me.lblDate = New System.Windows.Forms.Label()
         Me.conBuilds = New System.Windows.Forms.Panel()
+        Me.lblDate = New System.Windows.Forms.Label()
         Me.pnlMenu.SuspendLayout()
         Me.pnlLogo.SuspendLayout()
         CType(Me.pbLogo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -268,9 +269,9 @@ Partial Class formBase
         'pnlBase
         '
         Me.pnlBase.Controls.Add(Me.pnlDrag)
+        Me.pnlBase.Controls.Add(Me.lblDesc)
         Me.pnlBase.Controls.Add(Me.pnlLine)
         Me.pnlBase.Controls.Add(Me.pnlLoader)
-        Me.pnlBase.Controls.Add(Me.lblDate)
         Me.pnlBase.Controls.Add(Me.lblName)
         Me.pnlBase.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlBase.Location = New System.Drawing.Point(186, 0)
@@ -280,6 +281,7 @@ Partial Class formBase
         '
         'pnlDrag
         '
+        Me.pnlDrag.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.pnlDrag.Controls.Add(Me.btnClose)
         Me.pnlDrag.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnlDrag.Location = New System.Drawing.Point(0, 0)
@@ -300,13 +302,23 @@ Partial Class formBase
         Me.btnClose.Text = "X"
         Me.btnClose.UseVisualStyleBackColor = True
         '
+        'lblDesc
+        '
+        Me.lblDesc.AutoSize = True
+        Me.lblDesc.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDesc.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblDesc.Location = New System.Drawing.Point(11, 57)
+        Me.lblDesc.Name = "lblDesc"
+        Me.lblDesc.Size = New System.Drawing.Size(78, 16)
+        Me.lblDesc.TabIndex = 1
+        Me.lblDesc.Text = "Description"
+        '
         'pnlLine
         '
         Me.pnlLine.BackColor = System.Drawing.Color.Crimson
-        Me.pnlLine.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlLine.Location = New System.Drawing.Point(0, 119)
+        Me.pnlLine.Location = New System.Drawing.Point(0, 83)
         Me.pnlLine.Name = "pnlLine"
-        Me.pnlLine.Size = New System.Drawing.Size(765, 1)
+        Me.pnlLine.Size = New System.Drawing.Size(765, 3)
         Me.pnlLine.TabIndex = 5
         '
         'pnlLoader
@@ -314,23 +326,25 @@ Partial Class formBase
         Me.pnlLoader.Controls.Add(Me.conBuilds)
         Me.pnlLoader.Controls.Add(Me.conFarming)
         Me.pnlLoader.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlLoader.Location = New System.Drawing.Point(0, 120)
+        Me.pnlLoader.Location = New System.Drawing.Point(0, 92)
         Me.pnlLoader.Name = "pnlLoader"
-        Me.pnlLoader.Size = New System.Drawing.Size(765, 457)
+        Me.pnlLoader.Size = New System.Drawing.Size(765, 485)
         Me.pnlLoader.TabIndex = 4
         '
         'conFarming
         '
         Me.conFarming.Controls.Add(Me.pnlFarmCharacters)
         Me.conFarming.Controls.Add(Me.pnlFarmWeapons)
+        Me.conFarming.Controls.Add(Me.lblDate)
         Me.conFarming.Dock = System.Windows.Forms.DockStyle.Fill
         Me.conFarming.Location = New System.Drawing.Point(0, 0)
         Me.conFarming.Name = "conFarming"
-        Me.conFarming.Size = New System.Drawing.Size(765, 457)
+        Me.conFarming.Size = New System.Drawing.Size(765, 485)
         Me.conFarming.TabIndex = 4
         '
         'pnlFarmCharacters
         '
+        Me.pnlFarmCharacters.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter4)
         Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter8)
         Me.pnlFarmCharacters.Controls.Add(Me.lblFarmableCharacters)
@@ -366,7 +380,7 @@ Partial Class formBase
         '
         Me.lblFarmableCharacters.AutoSize = True
         Me.lblFarmableCharacters.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblFarmableCharacters.ForeColor = System.Drawing.Color.Crimson
         Me.lblFarmableCharacters.Location = New System.Drawing.Point(3, 8)
         Me.lblFarmableCharacters.Name = "lblFarmableCharacters"
         Me.lblFarmableCharacters.Size = New System.Drawing.Size(180, 22)
@@ -431,6 +445,7 @@ Partial Class formBase
         '
         'pnlFarmWeapons
         '
+        Me.pnlFarmWeapons.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon10)
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon17)
         Me.pnlFarmWeapons.Controls.Add(Me.pbWeapon7)
@@ -655,24 +670,24 @@ Partial Class formBase
         Me.pbWeapon13.TabIndex = 0
         Me.pbWeapon13.TabStop = False
         '
-        'lblDate
-        '
-        Me.lblDate.AutoSize = True
-        Me.lblDate.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.lblDate.Location = New System.Drawing.Point(3, 64)
-        Me.lblDate.Name = "lblDate"
-        Me.lblDate.Size = New System.Drawing.Size(84, 16)
-        Me.lblDate.TabIndex = 1
-        Me.lblDate.Text = "Today's Date"
-        '
         'conBuilds
         '
         Me.conBuilds.Dock = System.Windows.Forms.DockStyle.Fill
         Me.conBuilds.Location = New System.Drawing.Point(0, 0)
         Me.conBuilds.Name = "conBuilds"
-        Me.conBuilds.Size = New System.Drawing.Size(765, 457)
+        Me.conBuilds.Size = New System.Drawing.Size(765, 485)
         Me.conBuilds.TabIndex = 4
+        '
+        'lblDate
+        '
+        Me.lblDate.AutoSize = True
+        Me.lblDate.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblDate.Location = New System.Drawing.Point(11, 1)
+        Me.lblDate.Name = "lblDate"
+        Me.lblDate.Size = New System.Drawing.Size(84, 16)
+        Me.lblDate.TabIndex = 1
+        Me.lblDate.Text = "Today's Date"
         '
         'formBase
         '
@@ -694,6 +709,7 @@ Partial Class formBase
         Me.pnlDrag.ResumeLayout(False)
         Me.pnlLoader.ResumeLayout(False)
         Me.conFarming.ResumeLayout(False)
+        Me.conFarming.PerformLayout()
         Me.pnlFarmCharacters.ResumeLayout(False)
         Me.pnlFarmCharacters.PerformLayout()
         CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -789,4 +805,5 @@ Partial Class formBase
     Friend WithEvents conFarming As Panel
     Friend WithEvents pnlDrag As Panel
     Friend WithEvents conBuilds As Panel
+    Friend WithEvents lblDesc As Label
 End Class

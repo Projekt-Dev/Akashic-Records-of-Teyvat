@@ -8,9 +8,9 @@
     Public Sub loadFarmableImages(cImg As Image(), wImg As Image())
         Dim i As Integer = 0
         shuffleArray(cImg)
-        For Each pb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
-            pb.BackgroundImage = cImg(i)
-            pb.BackgroundImageLayout = formBase.BackgroundImageLayout.Stretch
+        For Each cpb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
+            cpb.BackgroundImage = cImg(i)
+            cpb.BackgroundImageLayout = formBase.BackgroundImageLayout.None
             i += 1
         Next
 
@@ -24,9 +24,9 @@
         End If
         Dim x As Integer = 0
         shuffleArray(wImg) 'Shuffles array so everytime it is loaded the images are in random order.
-        For Each pb As PictureBox In wb 'Loops through all pictureboxes and fills them with an image.
-            pb.BackgroundImage = wImg(x)
-            pb.BackgroundImageLayout = formBase.BackgroundImageLayout.Stretch
+        For Each wpb As PictureBox In wb 'Loops through all pictureboxes and fills them with an image.
+            wpb.BackgroundImage = wImg(x)
+            wpb.BackgroundImageLayout = formBase.BackgroundImageLayout.Zoom
             x += 1
         Next
 
