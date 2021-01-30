@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class formBase
+Partial Class formMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -35,10 +35,13 @@ Partial Class formBase
         Me.lblName = New System.Windows.Forms.Label()
         Me.pnlBase = New System.Windows.Forms.Panel()
         Me.pnlDrag = New System.Windows.Forms.Panel()
+        Me.btnMinimize = New System.Windows.Forms.Button()
+        Me.lblAppName = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.lblDesc = New System.Windows.Forms.Label()
         Me.pnlLine = New System.Windows.Forms.Panel()
         Me.pnlLoader = New System.Windows.Forms.Panel()
+        Me.conBuilds = New System.Windows.Forms.Panel()
         Me.conFarming = New System.Windows.Forms.Panel()
         Me.pnlFarmCharacters = New System.Windows.Forms.Panel()
         Me.pbCharacter4 = New System.Windows.Forms.PictureBox()
@@ -76,7 +79,6 @@ Partial Class formBase
         Me.pbWeapon19 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon0 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon13 = New System.Windows.Forms.PictureBox()
-        Me.conBuilds = New System.Windows.Forms.Panel()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.pnlMenu.SuspendLayout()
         Me.pnlLogo.SuspendLayout()
@@ -282,12 +284,38 @@ Partial Class formBase
         'pnlDrag
         '
         Me.pnlDrag.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
+        Me.pnlDrag.Controls.Add(Me.btnMinimize)
+        Me.pnlDrag.Controls.Add(Me.lblAppName)
         Me.pnlDrag.Controls.Add(Me.btnClose)
         Me.pnlDrag.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnlDrag.Location = New System.Drawing.Point(0, 0)
         Me.pnlDrag.Name = "pnlDrag"
         Me.pnlDrag.Size = New System.Drawing.Size(765, 22)
         Me.pnlDrag.TabIndex = 6
+        '
+        'btnMinimize
+        '
+        Me.btnMinimize.FlatAppearance.BorderSize = 0
+        Me.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMinimize.Font = New System.Drawing.Font("Montserrat Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMinimize.ForeColor = System.Drawing.Color.White
+        Me.btnMinimize.Location = New System.Drawing.Point(705, -7)
+        Me.btnMinimize.Name = "btnMinimize"
+        Me.btnMinimize.Size = New System.Drawing.Size(30, 29)
+        Me.btnMinimize.TabIndex = 2
+        Me.btnMinimize.Text = "-"
+        Me.btnMinimize.UseVisualStyleBackColor = True
+        '
+        'lblAppName
+        '
+        Me.lblAppName.AutoSize = True
+        Me.lblAppName.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAppName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblAppName.Location = New System.Drawing.Point(4, 3)
+        Me.lblAppName.Name = "lblAppName"
+        Me.lblAppName.Size = New System.Drawing.Size(103, 16)
+        Me.lblAppName.TabIndex = 1
+        Me.lblAppName.Text = "Porgram Name"
         '
         'btnClose
         '
@@ -330,6 +358,14 @@ Partial Class formBase
         Me.pnlLoader.Name = "pnlLoader"
         Me.pnlLoader.Size = New System.Drawing.Size(765, 485)
         Me.pnlLoader.TabIndex = 4
+        '
+        'conBuilds
+        '
+        Me.conBuilds.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.conBuilds.Location = New System.Drawing.Point(0, 0)
+        Me.conBuilds.Name = "conBuilds"
+        Me.conBuilds.Size = New System.Drawing.Size(765, 485)
+        Me.conBuilds.TabIndex = 4
         '
         'conFarming
         '
@@ -670,14 +706,6 @@ Partial Class formBase
         Me.pbWeapon13.TabIndex = 0
         Me.pbWeapon13.TabStop = False
         '
-        'conBuilds
-        '
-        Me.conBuilds.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.conBuilds.Location = New System.Drawing.Point(0, 0)
-        Me.conBuilds.Name = "conBuilds"
-        Me.conBuilds.Size = New System.Drawing.Size(765, 485)
-        Me.conBuilds.TabIndex = 4
-        '
         'lblDate
         '
         Me.lblDate.AutoSize = True
@@ -689,7 +717,7 @@ Partial Class formBase
         Me.lblDate.TabIndex = 1
         Me.lblDate.Text = "Today's Date"
         '
-        'formBase
+        'formMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -698,15 +726,16 @@ Partial Class formBase
         Me.Controls.Add(Me.pnlBase)
         Me.Controls.Add(Me.pnlMenu)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "formBase"
+        Me.Name = "formMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "formBase"
+        Me.Text = "Akashic Records of Teyvat"
         Me.pnlMenu.ResumeLayout(False)
         Me.pnlLogo.ResumeLayout(False)
         CType(Me.pbLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlBase.ResumeLayout(False)
         Me.pnlBase.PerformLayout()
         Me.pnlDrag.ResumeLayout(False)
+        Me.pnlDrag.PerformLayout()
         Me.pnlLoader.ResumeLayout(False)
         Me.conFarming.ResumeLayout(False)
         Me.conFarming.PerformLayout()
@@ -806,4 +835,6 @@ Partial Class formBase
     Friend WithEvents pnlDrag As Panel
     Friend WithEvents conBuilds As Panel
     Friend WithEvents lblDesc As Label
+    Friend WithEvents btnMinimize As Button
+    Friend WithEvents lblAppName As Label
 End Class

@@ -1,6 +1,13 @@
 ﻿Imports System.Runtime.InteropServices
 '29,19,45 - Light purple
-Public Class formBase
+#Region "To-Do List"
+'[]Make use of the whtie space in {Farming} by displaying information when hovered over an image.
+'[]Resize all artifact images
+'[]Resize all character card images
+'[]Finish list of character builds
+'[]Finish builds layout
+#End Region
+Public Class formMain
 #Region "Variables"
     Dim farm As Farmables = New Farmables
     Dim mouseDown_ As Boolean = False
@@ -139,6 +146,9 @@ Public Class formBase
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Close()
     End Sub
+    Private Sub btnMinimize_Click(sender As Object, e As EventArgs) Handles btnMinimize.Click
+        WindowState = FormWindowState.Minimized
+    End Sub
 
     Private Sub Visibility(p As Panel)
         If p Is conFarming Then
@@ -156,6 +166,7 @@ Public Class formBase
         onButtonSelected(pnlNav, btnFarming, "FARMING", farmTxt)
         conFarming.Visible = True
         conBuilds.Visible = False
+        lblAppName.Text = Application.ProductName
     End Sub
 #End Region
 
