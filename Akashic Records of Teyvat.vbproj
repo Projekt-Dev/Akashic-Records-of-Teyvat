@@ -72,6 +72,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Builds.vb" />
     <Compile Include="Classes\FarmableArrays.vb" />
     <Compile Include="Classes\Farmables.vb" />
     <Compile Include="Main.vb">
@@ -121,96 +122,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Albedo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Amber.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_barbra.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Beidou.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Bennet.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Chongyun.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Diluc.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Diona.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Fischl.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Ganyu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Jean.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Keaya.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Keqing.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Klee.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Lisa.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_mcF.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_mcM.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Mona.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Ningguang.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Noelle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_QiQi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Razor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Sucrose.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Tartaglia.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Venti.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Xaio.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_XiangLing.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Xinqui.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Xinyan.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Zhongli.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Weapon_Amos_Bow.png" />
@@ -398,306 +309,8 @@
   <ItemGroup>
     <None Include="Resources\Weapon_Wolf%27s_Gravestone.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\artifact_Archaic_Feather_of_Jagged_Peaks.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Archaic_Flower_of_Creviced_Cliff.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Archaic_Goblet_of_Chiseled_Crag.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Archaic_Mask_of_Solitude_Basalt.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Archaic_Sundial_of_Enduring_Jade.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Blizzard_Broken_Rime%27s_Echo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Blizzard_Frost-Weaved_Dignity.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Blizzard_Frozen_Homeland%27s_Demise.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Blizzard_Icebreaker%27s_Resolve.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Blizzard_Snowswept_Memory.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Bloodstained_Black_Plume.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Bloodstained_Chevalier%27s_Goblet.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Bloodstained_Final_Hour.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Bloodstained_Flower_of_Iron.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Bloodstained_Iron_Mask.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Gladiator%27s_Destiny.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Gladiator%27s_Intoxication.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Gladiator%27s_Longing.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Gladiator%27s_Nostalgia.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Gladiator%27s_Triumphus.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Heart_Copper_Compass.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Heart_Gilded_Corsage.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Heart_Goblet_of_Thundering_Deep.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Heart_Gust_of_Nostalgia.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Heart_Wine-Stained_Tricorne.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Lavawalker%27s_Epiphany.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Lavawalker%27s_Resolution.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Lavawalker%27s_Salvation.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Lavawalker%27s_Torment.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Lavawalker%27s_Wisdom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Maiden%27s_Distant_Love.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Maiden%27s_Fading_Beauty.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Maiden%27s_Fleeting_Leisure.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Maiden%27s_Heart-stricken_Infatuation.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Maiden%27s_Passing_Youth.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Royal_Flora.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Royal_Masque.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Royal_Plume.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Royal_Pocket_Watch.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Royal_Silver_Urn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Summer_Night%27s_Bloom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Summer_Night%27s_Finale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Summer_Night%27s_Mask.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Summer_Night%27s_Moment.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Summer_Night%27s_Waterballoon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundering_Hourglass_of_Thunder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundering_Omen_of_Thunderstorm.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundering_Survivor_of_Catastrophe.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundering_Thunder_Summoner%27s_Crown.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundering_Thunderbird%27s_Mercy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundersoother%27s_Diadem.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundersoother%27s_Goblet.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundersoother%27s_Heart.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundersoother%27s_Hour_of_Soothing_Thunder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Thundersoother%27s_Plume.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Viridescent_Arrow_Feather.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Viridescent_In_Remembrance_of_Viridescent_Fields.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Viridescent_Venerer%27s_Determination.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Viridescent_Venerer%27s_Diadem.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Viridescent_Venerer%27s_Vessel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Wanderer%27s_Dawnlight.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Wanderer%27s_Final_Hour.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Wanderer%27s_String_Kettle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Wanderer%27s_Top_Hat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Wander%27s_Arrow_Feather.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Witch%27s_End_Time.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Witch%27s_Ever-Burning_Plume.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Witch%27s_Flower_of_Blaze.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Witch%27s_Heart_Flames.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\artifact_Witch%27s_Scorching_Hat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Albedo_Card.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Amber_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Barbara_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Beidou_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Bennett_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Chongyun_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Diluc_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Diona_Card.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Fischl_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Ganyu_Card.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Jean_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Kaeya_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Keqing_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Klee_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Lisa_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Mona_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Ningguang_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Noelle_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Qiqi_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Razor_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Sucrose_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Tartaglia_Card.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Venti_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Xiangling_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Xiao_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Xingqiu_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Xinyan_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Character_Zhongli_Card.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Traveler_Female_Card.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Traveler_Male_Card.jpg" />
+    <None Include="Resources\portBig_Albedo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Random_Adventure_Experience.png" />
@@ -734,12 +347,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Emblem_Mondstadt.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Image_Transparent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\port_Albedo.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\portSmall_Amber.jpg" />
@@ -830,6 +437,114 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\portSmall_Venti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Amber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_barbra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Beidou.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Bennet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Chongyun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Diluc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Diona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Fischl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Ganyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Jean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Keaya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Keqing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Klee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Lisa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_mcF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_mcM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Mona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Ningguang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Noelle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_QiQi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Razor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Sucrose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Tartaglia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Venti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Xaio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_XiangLing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Xinqui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Xinyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Zhongli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Element_Anemo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Element_Cryo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Element_Dendro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Element_Electro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Element_Geo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Element_Hydro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Element_Pyro.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

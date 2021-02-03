@@ -1,7 +1,7 @@
 ﻿Public Class Farmables
     Public cb As List(Of PictureBox) = New List(Of PictureBox)() 'Creates of list of PictureBoxes for characters
     Public wb As List(Of PictureBox) = New List(Of PictureBox)() 'Creates of list of PictureBoxes for weapons
-    Dim dayInt As Integer = Date.Today.DayOfWeek ' From a range of 0-6 determines what today is
+    Dim dayInt As Integer = Date.Today.DayOfWeek 'From a range of 0-6 determines what today is
     Dim farms As FarmableArrays = New FarmableArrays 'Reference to FarmableArrays
 
 #Region "Help Functions" 'To prevent a lot of repetitive code these functions were created to minimize that
@@ -48,7 +48,7 @@
             swap(arr, i, i + ran.Next(n - i))
         Next
     End Sub
-    Public Sub swap(array As Image(), a As Integer, b As Integer)
+    Private Sub swap(array As Image(), a As Integer, b As Integer)
         Dim temp As Image = array(a)
         array(a) = array(b)
         array(b) = temp

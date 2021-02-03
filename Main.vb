@@ -10,9 +10,18 @@
 Public Class formMain
 #Region "Variables"
     Dim farm As Farmables = New Farmables
+    Dim bld As Builds = New Builds
     Dim mouseDown_ As Boolean = False
     Dim farmFix As Boolean = False
     Dim Offset As Point
+
+    Dim isPyro As Boolean = False
+    Dim isCryo As Boolean = False
+    Dim isHydro As Boolean = False
+    Dim isAnemo As Boolean = False
+    Dim isDendro As Boolean = False
+    Dim isElectro As Boolean = False
+    Dim isGeo As Boolean = False
 #Region "Desc Text" 'Usless variables to amplify laziness
     Dim farmTxt As String = "Lets see what there is to farm today! Oh wait I have no resin left."
     Dim buildTxt As String = "Popular builds for your favorite characters"
@@ -167,6 +176,10 @@ Public Class formMain
         conFarming.Visible = True
         conBuilds.Visible = False
         lblAppName.Text = Application.ProductName
+    End Sub
+
+    Private Sub pbElementPyro_Click(sender As Object, e As EventArgs) Handles pbElementPyro.Click
+        bld.loadFilteredImages(bld.pyro)
     End Sub
 #End Region
 

@@ -118,8 +118,116 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Character_Xinyan_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character_Xinyan_Card.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Element_Anemo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Element_Anemo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Element_Cryo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Element_Cryo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Element_Dendro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Element_Dendro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Element_Electro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Element_Electro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Element_Geo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Element_Geo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Element_Hydro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Element_Hydro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Element_Pyro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Element_Pyro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Albedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Albedo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Amber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Amber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_barbra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_barbra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Beidou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Beidou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Bennet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Bennet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Chongyun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Chongyun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Diluc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Diluc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Diona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Diona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Fischl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Fischl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Ganyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Ganyu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Jean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Jean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Keaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Keaya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Keqing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Keqing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Klee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Klee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Lisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Lisa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_mcF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_mcF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_mcM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_mcM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Mona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Mona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Ningguang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Ningguang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Noelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Noelle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_QiQi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_QiQi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Razor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Razor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Sucrose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Sucrose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Tartaglia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Tartaglia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Venti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Venti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Xaio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Xaio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_XiangLing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_XiangLing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Xinqui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Xinqui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Xinyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Xinyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portBig_Zhongli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portBig_Zhongli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="portSmall_Albedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\portSmall_Albedo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
