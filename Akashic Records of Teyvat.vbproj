@@ -72,7 +72,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Builds.vb" />
+    <Compile Include="Classes\Buildables.vb" />
     <Compile Include="Classes\FarmableArrays.vb" />
     <Compile Include="Classes\Farmables.vb" />
     <Compile Include="Main.vb">
@@ -545,6 +545,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Element_Pyro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image_Transparent.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

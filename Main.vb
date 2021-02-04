@@ -10,18 +10,13 @@
 Public Class formMain
 #Region "Variables"
     Dim farm As Farmables = New Farmables
-    Dim bld As Builds = New Builds
+    Dim bld As Buildables = New Buildables
     Dim mouseDown_ As Boolean = False
     Dim farmFix As Boolean = False
     Dim Offset As Point
 
-    Dim isPyro As Boolean = False
-    Dim isCryo As Boolean = False
-    Dim isHydro As Boolean = False
-    Dim isAnemo As Boolean = False
-    Dim isDendro As Boolean = False
-    Dim isElectro As Boolean = False
-    Dim isGeo As Boolean = False
+    Dim isViewing As Boolean = False
+
 #Region "Desc Text" 'Usless variables to amplify laziness
     Dim farmTxt As String = "Lets see what there is to farm today! Oh wait I have no resin left."
     Dim buildTxt As String = "Popular builds for your favorite characters"
@@ -177,9 +172,40 @@ Public Class formMain
         conBuilds.Visible = False
         lblAppName.Text = Application.ProductName
     End Sub
+#End Region
 
+#Region "Builds"
+    Private Sub loadCharacters(i As Image(), text As String)
+        bld.ClearPictureBoxes(flowCharacters)
+        bld.loadFilteredImages(i)
+        With lblElements
+            .Text = text
+            .Location = New Point(flowCharacters.Width \ 2 - lblElements.Width + 25, lblElements.Location.Y)
+        End With
+    End Sub
     Private Sub pbElementPyro_Click(sender As Object, e As EventArgs) Handles pbElementPyro.Click
-        bld.loadFilteredImages(bld.pyro)
+        loadCharacters(bld.pyro, "Pyro")
+
+    End Sub
+
+    Private Sub pbElementCryo_Click(sender As Object, e As EventArgs) Handles pbElementCryo.Click
+        loadCharacters(bld.cryo, "Cryo")
+    End Sub
+
+    Private Sub pbElementHydro_Click(sender As Object, e As EventArgs) Handles pbElementHydro.Click
+        loadCharacters(bld.hydro, "Hydro")
+    End Sub
+
+    Private Sub pbElementGeo_Click(sender As Object, e As EventArgs) Handles pbElementGeo.Click
+        loadCharacters(bld.geo, "Geo")
+    End Sub
+
+    Private Sub pbElementElectro_Click(sender As Object, e As EventArgs) Handles pbElementElectro.Click
+        loadCharacters(bld.electro, "Electro")
+    End Sub
+
+    Private Sub pbElementAnemo_Click(sender As Object, e As EventArgs) Handles pbElementAnemo.Click
+        loadCharacters(bld.anemo, "Anemo")
     End Sub
 #End Region
 

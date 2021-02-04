@@ -1,4 +1,4 @@
-﻿Public Class Builds
+﻿Public Class Buildables
     Public cb As List(Of PictureBox) = New List(Of PictureBox)() 'Creates of list of PictureBoxes for characters
     Dim farm As Farmables
 
@@ -63,18 +63,8 @@
     End Sub
 #End Region
 
-    Private Sub characterFilter()
-        'Loops through the container to find all PictureBox controls and adds them to the list
-        For Each c As Control In formMain.flowCharacters.Controls
-            If TypeOf c Is PictureBox Then
-                cb.Add(c)
-            End If
-        Next
-
-
-    End Sub
-
     Public Sub loadFilteredImages(cI As Image())
+
         'Loops through the container to find all PictureBox controls and adds them to the list
         For Each c As Control In formMain.flowCharacters.Controls
             If TypeOf c Is PictureBox Then
@@ -85,7 +75,7 @@
         Dim i As Integer = 0
         shuffleArray(cI)
         If cb.Count > cI.Length Then
-            cb.Remove(formMain.pbBuildChar5)
+            cb.Remove(formMain.pbBuildChar1)
             cb.Remove(formMain.pbBuildChar6)
         End If
         For Each cpb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
@@ -96,4 +86,14 @@
         Next
     End Sub
 
+    Public Sub ClearPictureBoxes(ByVal parent As Control)
+        cb.Clear()
+        For Each child As Control In parent.Controls
+            If TypeOf child Is PictureBox Then
+                child.BackgroundImage = Nothing
+            Else
+                ClearPictureBoxes(child)
+            End If
+        Next
+    End Sub
 End Class
