@@ -78,15 +78,15 @@
             cb.Remove(formMain.pbBuildChar1)
             cb.Remove(formMain.pbBuildChar6)
         End If
-        For Each cpb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
-            cpb.BackgroundImage = cI(i)
-            cpb.BackgroundImageLayout = formMain.BackgroundImageLayout.Zoom
-            cpb.Visible = True
+        For Each _cb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
+            _cb.BackgroundImage = cI(i)
+            _cb.BackgroundImageLayout = formMain.BackgroundImageLayout.Zoom
+            _cb.Visible = True
             i += 1
         Next
     End Sub
 
-    Public Sub ClearPictureBoxes(ByVal parent As Control)
+    Public Sub ClearPictureBoxes(parent As Control)
         cb.Clear()
         For Each child As Control In parent.Controls
             If TypeOf child Is PictureBox Then

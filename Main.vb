@@ -11,10 +11,12 @@ Public Class formMain
 #Region "Variables"
     Dim farm As Farmables = New Farmables
     Dim bld As Buildables = New Buildables
+
+    Dim Offset As Point
+    Dim panels() As Panel = {conFarming, conBuilds}
+
     Dim mouseDown_ As Boolean = False
     Dim farmFix As Boolean = False
-    Dim Offset As Point
-
     Dim isViewing As Boolean = False
 
 #Region "Desc Text" 'Usless variables to amplify laziness
@@ -126,7 +128,7 @@ Public Class formMain
 
     End Sub
 
-    'When selecting another button revert color changes
+    'When selecting another button revert changes
     Private Sub onButtonLeave(btn As Button)
         If farmFix = False Then
             fixBtnFarm()
@@ -154,6 +156,7 @@ Public Class formMain
         WindowState = FormWindowState.Minimized
     End Sub
 
+    'When makes the selected panel visible with disabling the others
     Private Sub Visibility(p As Panel)
         If p Is conFarming Then
             conBuilds.Visible = False
@@ -163,6 +166,7 @@ Public Class formMain
             p.Visible = True
         End If
     End Sub
+    'Default settings for the program to use on load.
     Private Sub Defaults()
         'issues with the about button sometimes loading with a crimson border. this removes it on load.
         btnAbout.FlatAppearance.BorderSize = 0
