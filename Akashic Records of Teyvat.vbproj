@@ -549,5 +549,17 @@
   <ItemGroup>
     <None Include="Resources\Image_Transparent.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_HuTao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portSmall_Rosaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_HuTao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portBig_Rosaria.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

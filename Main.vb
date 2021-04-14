@@ -6,13 +6,15 @@
 '[]Resize all character card images
 '[]Finish list of character builds
 '[]Finish builds layout
+'[]Find a better way to combine certain arrays into a "utilities" class
+'[]Better way to remove items from the list and center them in the builds panel.
 #End Region
 Public Class formMain
 #Region "Variables"
     Dim farm As Farmables = New Farmables
     Dim bld As Buildables = New Buildables
 
-    Dim Offset As Point
+    Dim Offset As Point = New Point
     Dim panels() As Panel = {conFarming, conBuilds}
 
     Dim mouseDown_ As Boolean = False

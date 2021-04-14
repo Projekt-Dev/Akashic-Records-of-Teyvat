@@ -41,28 +41,9 @@ Partial Class formMain
         Me.lblDesc = New System.Windows.Forms.Label()
         Me.pnlLine = New System.Windows.Forms.Panel()
         Me.pnlLoader = New System.Windows.Forms.Panel()
-        Me.conBuilds = New System.Windows.Forms.Panel()
-        Me.pnlBuildsCharacters = New System.Windows.Forms.Panel()
-        Me.flowCharacters = New System.Windows.Forms.FlowLayoutPanel()
-        Me.pbBuildChar1 = New System.Windows.Forms.PictureBox()
-        Me.pbBuildChar2 = New System.Windows.Forms.PictureBox()
-        Me.pbBuildChar3 = New System.Windows.Forms.PictureBox()
-        Me.pbBuildChar4 = New System.Windows.Forms.PictureBox()
-        Me.pbBuildChar5 = New System.Windows.Forms.PictureBox()
-        Me.pbBuildChar6 = New System.Windows.Forms.PictureBox()
-        Me.lblElements = New System.Windows.Forms.Label()
-        Me.pbElementAnemo = New System.Windows.Forms.PictureBox()
-        Me.pbElementDendro = New System.Windows.Forms.PictureBox()
-        Me.pbElementElectro = New System.Windows.Forms.PictureBox()
-        Me.pbElementGeo = New System.Windows.Forms.PictureBox()
-        Me.pbElementHydro = New System.Windows.Forms.PictureBox()
-        Me.pbElementCryo = New System.Windows.Forms.PictureBox()
-        Me.pbElementPyro = New System.Windows.Forms.PictureBox()
-        Me.pnlBuilds = New System.Windows.Forms.FlowLayoutPanel()
-        Me.conBuild1 = New System.Windows.Forms.Panel()
-        Me.conBuild2 = New System.Windows.Forms.Panel()
         Me.conFarming = New System.Windows.Forms.Panel()
         Me.pnlFarmCharacters = New System.Windows.Forms.Panel()
+        Me.pbCharacters9 = New System.Windows.Forms.PictureBox()
         Me.pbCharacter4 = New System.Windows.Forms.PictureBox()
         Me.pbCharacter8 = New System.Windows.Forms.PictureBox()
         Me.lblFarmableCharacters = New System.Windows.Forms.Label()
@@ -99,16 +80,36 @@ Partial Class formMain
         Me.pbWeapon0 = New System.Windows.Forms.PictureBox()
         Me.pbWeapon13 = New System.Windows.Forms.PictureBox()
         Me.lblDate = New System.Windows.Forms.Label()
+        Me.conBuilds = New System.Windows.Forms.Panel()
+        Me.pnlBuildsCharacters = New System.Windows.Forms.Panel()
+        Me.flowCharacters = New System.Windows.Forms.FlowLayoutPanel()
+        Me.pbBuildChar1 = New System.Windows.Forms.PictureBox()
+        Me.pbBuildChar2 = New System.Windows.Forms.PictureBox()
+        Me.pbBuildChar3 = New System.Windows.Forms.PictureBox()
+        Me.pbBuildChar4 = New System.Windows.Forms.PictureBox()
+        Me.pbBuildChar5 = New System.Windows.Forms.PictureBox()
+        Me.pbBuildChar6 = New System.Windows.Forms.PictureBox()
+        Me.lblElements = New System.Windows.Forms.Label()
+        Me.pbElementAnemo = New System.Windows.Forms.PictureBox()
+        Me.pbElementDendro = New System.Windows.Forms.PictureBox()
+        Me.pbElementElectro = New System.Windows.Forms.PictureBox()
+        Me.pbElementGeo = New System.Windows.Forms.PictureBox()
+        Me.pbElementHydro = New System.Windows.Forms.PictureBox()
+        Me.pbElementCryo = New System.Windows.Forms.PictureBox()
+        Me.pbElementPyro = New System.Windows.Forms.PictureBox()
+        Me.pnlBuilds = New System.Windows.Forms.FlowLayoutPanel()
+        Me.conBuild1 = New System.Windows.Forms.Panel()
         Me.pnlBuild1 = New System.Windows.Forms.Panel()
-        Me.lbl1Art1 = New System.Windows.Forms.Label()
-        Me.lbl1Art2 = New System.Windows.Forms.Label()
+        Me.pbBuild1Art4 = New System.Windows.Forms.PictureBox()
         Me.pbBuildCharacter1 = New System.Windows.Forms.PictureBox()
+        Me.lblBuildType1 = New System.Windows.Forms.Label()
+        Me.lbl1Art1 = New System.Windows.Forms.Label()
+        Me.pbBuild1Art3 = New System.Windows.Forms.PictureBox()
+        Me.lbl1Art2 = New System.Windows.Forms.Label()
+        Me.pbBuild1Art2 = New System.Windows.Forms.PictureBox()
         Me.pbBuild1Art1 = New System.Windows.Forms.PictureBox()
         Me.lblCharacterName1 = New System.Windows.Forms.Label()
-        Me.pbBuild1Art2 = New System.Windows.Forms.PictureBox()
-        Me.pbBuild1Art3 = New System.Windows.Forms.PictureBox()
-        Me.lblBuildType1 = New System.Windows.Forms.Label()
-        Me.pbBuild1Art4 = New System.Windows.Forms.PictureBox()
+        Me.conBuild2 = New System.Windows.Forms.Panel()
         Me.pnlBuild2 = New System.Windows.Forms.Panel()
         Me.pbBuild2Art5 = New System.Windows.Forms.PictureBox()
         Me.lblBuildType2 = New System.Windows.Forms.Label()
@@ -119,33 +120,16 @@ Partial Class formMain
         Me.pbBuildCharacter2 = New System.Windows.Forms.PictureBox()
         Me.lbl2Art2 = New System.Windows.Forms.Label()
         Me.lbl2Art1 = New System.Windows.Forms.Label()
+        Me.pbBuildChar7 = New System.Windows.Forms.PictureBox()
         Me.pnlMenu.SuspendLayout()
         Me.pnlLogo.SuspendLayout()
         CType(Me.pbLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlBase.SuspendLayout()
         Me.pnlDrag.SuspendLayout()
         Me.pnlLoader.SuspendLayout()
-        Me.conBuilds.SuspendLayout()
-        Me.pnlBuildsCharacters.SuspendLayout()
-        Me.flowCharacters.SuspendLayout()
-        CType(Me.pbBuildChar1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuildChar2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuildChar3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuildChar4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuildChar5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuildChar6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbElementAnemo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbElementDendro, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbElementElectro, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbElementGeo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbElementHydro, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbElementCryo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbElementPyro, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.pnlBuilds.SuspendLayout()
-        Me.conBuild1.SuspendLayout()
-        Me.conBuild2.SuspendLayout()
         Me.conFarming.SuspendLayout()
         Me.pnlFarmCharacters.SuspendLayout()
+        CType(Me.pbCharacters9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -179,18 +163,38 @@ Partial Class formMain
         CType(Me.pbWeapon19, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbWeapon0, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbWeapon13, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.conBuilds.SuspendLayout()
+        Me.pnlBuildsCharacters.SuspendLayout()
+        Me.flowCharacters.SuspendLayout()
+        CType(Me.pbBuildChar1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuildChar2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuildChar3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuildChar4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuildChar5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuildChar6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbElementAnemo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbElementDendro, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbElementElectro, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbElementGeo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbElementHydro, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbElementCryo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbElementPyro, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlBuilds.SuspendLayout()
+        Me.conBuild1.SuspendLayout()
         Me.pnlBuild1.SuspendLayout()
-        CType(Me.pbBuildCharacter1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuild1Art1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuild1Art2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbBuild1Art3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbBuild1Art4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuildCharacter1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuild1Art3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuild1Art2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuild1Art1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.conBuild2.SuspendLayout()
         Me.pnlBuild2.SuspendLayout()
         CType(Me.pbBuild2Art5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbBuild2Art3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbBuild2Art2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbBuild2Art1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbBuildCharacter2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBuildChar7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlMenu
@@ -429,226 +433,6 @@ Partial Class formMain
         Me.pnlLoader.Size = New System.Drawing.Size(765, 485)
         Me.pnlLoader.TabIndex = 4
         '
-        'conBuilds
-        '
-        Me.conBuilds.Controls.Add(Me.pnlBuildsCharacters)
-        Me.conBuilds.Controls.Add(Me.pnlBuilds)
-        Me.conBuilds.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.conBuilds.Location = New System.Drawing.Point(0, 0)
-        Me.conBuilds.Name = "conBuilds"
-        Me.conBuilds.Size = New System.Drawing.Size(765, 485)
-        Me.conBuilds.TabIndex = 4
-        '
-        'pnlBuildsCharacters
-        '
-        Me.pnlBuildsCharacters.Controls.Add(Me.flowCharacters)
-        Me.pnlBuildsCharacters.Controls.Add(Me.lblElements)
-        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementAnemo)
-        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementDendro)
-        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementElectro)
-        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementGeo)
-        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementHydro)
-        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementCryo)
-        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementPyro)
-        Me.pnlBuildsCharacters.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlBuildsCharacters.Location = New System.Drawing.Point(0, 0)
-        Me.pnlBuildsCharacters.Name = "pnlBuildsCharacters"
-        Me.pnlBuildsCharacters.Size = New System.Drawing.Size(546, 485)
-        Me.pnlBuildsCharacters.TabIndex = 1
-        '
-        'flowCharacters
-        '
-        Me.flowCharacters.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
-        Me.flowCharacters.Controls.Add(Me.pbBuildChar1)
-        Me.flowCharacters.Controls.Add(Me.pbBuildChar2)
-        Me.flowCharacters.Controls.Add(Me.pbBuildChar3)
-        Me.flowCharacters.Controls.Add(Me.pbBuildChar4)
-        Me.flowCharacters.Controls.Add(Me.pbBuildChar5)
-        Me.flowCharacters.Controls.Add(Me.pbBuildChar6)
-        Me.flowCharacters.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.flowCharacters.Location = New System.Drawing.Point(0, 76)
-        Me.flowCharacters.Name = "flowCharacters"
-        Me.flowCharacters.Padding = New System.Windows.Forms.Padding(5)
-        Me.flowCharacters.Size = New System.Drawing.Size(546, 409)
-        Me.flowCharacters.TabIndex = 11
-        '
-        'pbBuildChar1
-        '
-        Me.pbBuildChar1.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
-        Me.pbBuildChar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuildChar1.Location = New System.Drawing.Point(8, 8)
-        Me.pbBuildChar1.Name = "pbBuildChar1"
-        Me.pbBuildChar1.Size = New System.Drawing.Size(83, 83)
-        Me.pbBuildChar1.TabIndex = 1
-        Me.pbBuildChar1.TabStop = False
-        Me.pbBuildChar1.Visible = False
-        '
-        'pbBuildChar2
-        '
-        Me.pbBuildChar2.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
-        Me.pbBuildChar2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuildChar2.Location = New System.Drawing.Point(97, 8)
-        Me.pbBuildChar2.Name = "pbBuildChar2"
-        Me.pbBuildChar2.Size = New System.Drawing.Size(83, 83)
-        Me.pbBuildChar2.TabIndex = 1
-        Me.pbBuildChar2.TabStop = False
-        Me.pbBuildChar2.Visible = False
-        '
-        'pbBuildChar3
-        '
-        Me.pbBuildChar3.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
-        Me.pbBuildChar3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuildChar3.Location = New System.Drawing.Point(186, 8)
-        Me.pbBuildChar3.Name = "pbBuildChar3"
-        Me.pbBuildChar3.Size = New System.Drawing.Size(83, 83)
-        Me.pbBuildChar3.TabIndex = 1
-        Me.pbBuildChar3.TabStop = False
-        Me.pbBuildChar3.Visible = False
-        '
-        'pbBuildChar4
-        '
-        Me.pbBuildChar4.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
-        Me.pbBuildChar4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuildChar4.Location = New System.Drawing.Point(275, 8)
-        Me.pbBuildChar4.Name = "pbBuildChar4"
-        Me.pbBuildChar4.Size = New System.Drawing.Size(83, 83)
-        Me.pbBuildChar4.TabIndex = 1
-        Me.pbBuildChar4.TabStop = False
-        Me.pbBuildChar4.Visible = False
-        '
-        'pbBuildChar5
-        '
-        Me.pbBuildChar5.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
-        Me.pbBuildChar5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuildChar5.Location = New System.Drawing.Point(364, 8)
-        Me.pbBuildChar5.Name = "pbBuildChar5"
-        Me.pbBuildChar5.Size = New System.Drawing.Size(83, 83)
-        Me.pbBuildChar5.TabIndex = 1
-        Me.pbBuildChar5.TabStop = False
-        Me.pbBuildChar5.Visible = False
-        '
-        'pbBuildChar6
-        '
-        Me.pbBuildChar6.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
-        Me.pbBuildChar6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuildChar6.Location = New System.Drawing.Point(453, 8)
-        Me.pbBuildChar6.Name = "pbBuildChar6"
-        Me.pbBuildChar6.Size = New System.Drawing.Size(83, 83)
-        Me.pbBuildChar6.TabIndex = 1
-        Me.pbBuildChar6.TabStop = False
-        Me.pbBuildChar6.Visible = False
-        '
-        'lblElements
-        '
-        Me.lblElements.AutoSize = True
-        Me.lblElements.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblElements.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.lblElements.Location = New System.Drawing.Point(184, 54)
-        Me.lblElements.Name = "lblElements"
-        Me.lblElements.Size = New System.Drawing.Size(178, 16)
-        Me.lblElements.TabIndex = 3
-        Me.lblElements.Text = "Select Your Desired Element"
-        Me.lblElements.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'pbElementAnemo
-        '
-        Me.pbElementAnemo.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Anemo
-        Me.pbElementAnemo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbElementAnemo.Location = New System.Drawing.Point(403, 1)
-        Me.pbElementAnemo.Name = "pbElementAnemo"
-        Me.pbElementAnemo.Size = New System.Drawing.Size(45, 45)
-        Me.pbElementAnemo.TabIndex = 4
-        Me.pbElementAnemo.TabStop = False
-        '
-        'pbElementDendro
-        '
-        Me.pbElementDendro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Dendro
-        Me.pbElementDendro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbElementDendro.Location = New System.Drawing.Point(352, 1)
-        Me.pbElementDendro.Name = "pbElementDendro"
-        Me.pbElementDendro.Size = New System.Drawing.Size(45, 45)
-        Me.pbElementDendro.TabIndex = 5
-        Me.pbElementDendro.TabStop = False
-        '
-        'pbElementElectro
-        '
-        Me.pbElementElectro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Electro
-        Me.pbElementElectro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbElementElectro.Location = New System.Drawing.Point(301, 1)
-        Me.pbElementElectro.Name = "pbElementElectro"
-        Me.pbElementElectro.Size = New System.Drawing.Size(45, 45)
-        Me.pbElementElectro.TabIndex = 6
-        Me.pbElementElectro.TabStop = False
-        '
-        'pbElementGeo
-        '
-        Me.pbElementGeo.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Geo
-        Me.pbElementGeo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbElementGeo.Location = New System.Drawing.Point(250, 1)
-        Me.pbElementGeo.Name = "pbElementGeo"
-        Me.pbElementGeo.Size = New System.Drawing.Size(45, 45)
-        Me.pbElementGeo.TabIndex = 7
-        Me.pbElementGeo.TabStop = False
-        '
-        'pbElementHydro
-        '
-        Me.pbElementHydro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Hydro
-        Me.pbElementHydro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbElementHydro.Location = New System.Drawing.Point(199, 1)
-        Me.pbElementHydro.Name = "pbElementHydro"
-        Me.pbElementHydro.Size = New System.Drawing.Size(45, 45)
-        Me.pbElementHydro.TabIndex = 8
-        Me.pbElementHydro.TabStop = False
-        '
-        'pbElementCryo
-        '
-        Me.pbElementCryo.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Cryo
-        Me.pbElementCryo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbElementCryo.Location = New System.Drawing.Point(148, 1)
-        Me.pbElementCryo.Name = "pbElementCryo"
-        Me.pbElementCryo.Size = New System.Drawing.Size(45, 45)
-        Me.pbElementCryo.TabIndex = 9
-        Me.pbElementCryo.TabStop = False
-        '
-        'pbElementPyro
-        '
-        Me.pbElementPyro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Pyro
-        Me.pbElementPyro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbElementPyro.Location = New System.Drawing.Point(97, 1)
-        Me.pbElementPyro.Name = "pbElementPyro"
-        Me.pbElementPyro.Size = New System.Drawing.Size(45, 45)
-        Me.pbElementPyro.TabIndex = 10
-        Me.pbElementPyro.TabStop = False
-        '
-        'pnlBuilds
-        '
-        Me.pnlBuilds.Controls.Add(Me.conBuild1)
-        Me.pnlBuilds.Controls.Add(Me.conBuild2)
-        Me.pnlBuilds.Dock = System.Windows.Forms.DockStyle.Right
-        Me.pnlBuilds.Location = New System.Drawing.Point(546, 0)
-        Me.pnlBuilds.Name = "pnlBuilds"
-        Me.pnlBuilds.Padding = New System.Windows.Forms.Padding(5)
-        Me.pnlBuilds.Size = New System.Drawing.Size(219, 485)
-        Me.pnlBuilds.TabIndex = 0
-        '
-        'conBuild1
-        '
-        Me.conBuild1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
-        Me.conBuild1.Controls.Add(Me.pnlBuild1)
-        Me.conBuild1.Location = New System.Drawing.Point(8, 8)
-        Me.conBuild1.Name = "conBuild1"
-        Me.conBuild1.Size = New System.Drawing.Size(200, 218)
-        Me.conBuild1.TabIndex = 0
-        '
-        'conBuild2
-        '
-        Me.conBuild2.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
-        Me.conBuild2.Controls.Add(Me.pnlBuild2)
-        Me.conBuild2.Location = New System.Drawing.Point(8, 232)
-        Me.conBuild2.Name = "conBuild2"
-        Me.conBuild2.Size = New System.Drawing.Size(200, 218)
-        Me.conBuild2.TabIndex = 2
-        '
         'conFarming
         '
         Me.conFarming.Controls.Add(Me.pnlFarmCharacters)
@@ -663,6 +447,7 @@ Partial Class formMain
         'pnlFarmCharacters
         '
         Me.pnlFarmCharacters.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
+        Me.pnlFarmCharacters.Controls.Add(Me.pbCharacters9)
         Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter4)
         Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter8)
         Me.pnlFarmCharacters.Controls.Add(Me.lblFarmableCharacters)
@@ -675,8 +460,16 @@ Partial Class formMain
         Me.pnlFarmCharacters.Controls.Add(Me.pbCharacter7)
         Me.pnlFarmCharacters.Location = New System.Drawing.Point(6, 20)
         Me.pnlFarmCharacters.Name = "pnlFarmCharacters"
-        Me.pnlFarmCharacters.Size = New System.Drawing.Size(238, 270)
+        Me.pnlFarmCharacters.Size = New System.Drawing.Size(238, 348)
         Me.pnlFarmCharacters.TabIndex = 3
+        '
+        'pbCharacters9
+        '
+        Me.pbCharacters9.Location = New System.Drawing.Point(6, 268)
+        Me.pbCharacters9.Name = "pbCharacters9"
+        Me.pbCharacters9.Size = New System.Drawing.Size(70, 70)
+        Me.pbCharacters9.TabIndex = 2
+        Me.pbCharacters9.TabStop = False
         '
         'pbCharacter4
         '
@@ -999,6 +792,218 @@ Partial Class formMain
         Me.lblDate.TabIndex = 1
         Me.lblDate.Text = "Today's Date"
         '
+        'conBuilds
+        '
+        Me.conBuilds.Controls.Add(Me.pnlBuildsCharacters)
+        Me.conBuilds.Controls.Add(Me.pnlBuilds)
+        Me.conBuilds.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.conBuilds.Location = New System.Drawing.Point(0, 0)
+        Me.conBuilds.Name = "conBuilds"
+        Me.conBuilds.Size = New System.Drawing.Size(765, 485)
+        Me.conBuilds.TabIndex = 4
+        '
+        'pnlBuildsCharacters
+        '
+        Me.pnlBuildsCharacters.Controls.Add(Me.flowCharacters)
+        Me.pnlBuildsCharacters.Controls.Add(Me.lblElements)
+        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementAnemo)
+        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementDendro)
+        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementElectro)
+        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementGeo)
+        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementHydro)
+        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementCryo)
+        Me.pnlBuildsCharacters.Controls.Add(Me.pbElementPyro)
+        Me.pnlBuildsCharacters.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pnlBuildsCharacters.Location = New System.Drawing.Point(0, 0)
+        Me.pnlBuildsCharacters.Name = "pnlBuildsCharacters"
+        Me.pnlBuildsCharacters.Size = New System.Drawing.Size(546, 485)
+        Me.pnlBuildsCharacters.TabIndex = 1
+        '
+        'flowCharacters
+        '
+        Me.flowCharacters.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
+        Me.flowCharacters.Controls.Add(Me.pbBuildChar1)
+        Me.flowCharacters.Controls.Add(Me.pbBuildChar2)
+        Me.flowCharacters.Controls.Add(Me.pbBuildChar3)
+        Me.flowCharacters.Controls.Add(Me.pbBuildChar4)
+        Me.flowCharacters.Controls.Add(Me.pbBuildChar5)
+        Me.flowCharacters.Controls.Add(Me.pbBuildChar6)
+        Me.flowCharacters.Controls.Add(Me.pbBuildChar7)
+        Me.flowCharacters.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.flowCharacters.Location = New System.Drawing.Point(0, 76)
+        Me.flowCharacters.Name = "flowCharacters"
+        Me.flowCharacters.Padding = New System.Windows.Forms.Padding(5)
+        Me.flowCharacters.Size = New System.Drawing.Size(546, 409)
+        Me.flowCharacters.TabIndex = 11
+        '
+        'pbBuildChar1
+        '
+        Me.pbBuildChar1.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
+        Me.pbBuildChar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuildChar1.Location = New System.Drawing.Point(8, 8)
+        Me.pbBuildChar1.Name = "pbBuildChar1"
+        Me.pbBuildChar1.Size = New System.Drawing.Size(83, 83)
+        Me.pbBuildChar1.TabIndex = 1
+        Me.pbBuildChar1.TabStop = False
+        Me.pbBuildChar1.Visible = False
+        '
+        'pbBuildChar2
+        '
+        Me.pbBuildChar2.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
+        Me.pbBuildChar2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuildChar2.Location = New System.Drawing.Point(97, 8)
+        Me.pbBuildChar2.Name = "pbBuildChar2"
+        Me.pbBuildChar2.Size = New System.Drawing.Size(83, 83)
+        Me.pbBuildChar2.TabIndex = 1
+        Me.pbBuildChar2.TabStop = False
+        Me.pbBuildChar2.Visible = False
+        '
+        'pbBuildChar3
+        '
+        Me.pbBuildChar3.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
+        Me.pbBuildChar3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuildChar3.Location = New System.Drawing.Point(186, 8)
+        Me.pbBuildChar3.Name = "pbBuildChar3"
+        Me.pbBuildChar3.Size = New System.Drawing.Size(83, 83)
+        Me.pbBuildChar3.TabIndex = 1
+        Me.pbBuildChar3.TabStop = False
+        Me.pbBuildChar3.Visible = False
+        '
+        'pbBuildChar4
+        '
+        Me.pbBuildChar4.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
+        Me.pbBuildChar4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuildChar4.Location = New System.Drawing.Point(275, 8)
+        Me.pbBuildChar4.Name = "pbBuildChar4"
+        Me.pbBuildChar4.Size = New System.Drawing.Size(83, 83)
+        Me.pbBuildChar4.TabIndex = 1
+        Me.pbBuildChar4.TabStop = False
+        Me.pbBuildChar4.Visible = False
+        '
+        'pbBuildChar5
+        '
+        Me.pbBuildChar5.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
+        Me.pbBuildChar5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuildChar5.Location = New System.Drawing.Point(364, 8)
+        Me.pbBuildChar5.Name = "pbBuildChar5"
+        Me.pbBuildChar5.Size = New System.Drawing.Size(83, 83)
+        Me.pbBuildChar5.TabIndex = 1
+        Me.pbBuildChar5.TabStop = False
+        Me.pbBuildChar5.Visible = False
+        '
+        'pbBuildChar6
+        '
+        Me.pbBuildChar6.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
+        Me.pbBuildChar6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuildChar6.Location = New System.Drawing.Point(453, 8)
+        Me.pbBuildChar6.Name = "pbBuildChar6"
+        Me.pbBuildChar6.Size = New System.Drawing.Size(83, 83)
+        Me.pbBuildChar6.TabIndex = 1
+        Me.pbBuildChar6.TabStop = False
+        Me.pbBuildChar6.Visible = False
+        '
+        'lblElements
+        '
+        Me.lblElements.AutoSize = True
+        Me.lblElements.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblElements.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.lblElements.Location = New System.Drawing.Point(184, 54)
+        Me.lblElements.Name = "lblElements"
+        Me.lblElements.Size = New System.Drawing.Size(178, 16)
+        Me.lblElements.TabIndex = 3
+        Me.lblElements.Text = "Select Your Desired Element"
+        Me.lblElements.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'pbElementAnemo
+        '
+        Me.pbElementAnemo.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Anemo
+        Me.pbElementAnemo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbElementAnemo.Location = New System.Drawing.Point(403, 1)
+        Me.pbElementAnemo.Name = "pbElementAnemo"
+        Me.pbElementAnemo.Size = New System.Drawing.Size(45, 45)
+        Me.pbElementAnemo.TabIndex = 4
+        Me.pbElementAnemo.TabStop = False
+        '
+        'pbElementDendro
+        '
+        Me.pbElementDendro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Dendro
+        Me.pbElementDendro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbElementDendro.Location = New System.Drawing.Point(352, 1)
+        Me.pbElementDendro.Name = "pbElementDendro"
+        Me.pbElementDendro.Size = New System.Drawing.Size(45, 45)
+        Me.pbElementDendro.TabIndex = 5
+        Me.pbElementDendro.TabStop = False
+        '
+        'pbElementElectro
+        '
+        Me.pbElementElectro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Electro
+        Me.pbElementElectro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbElementElectro.Location = New System.Drawing.Point(301, 1)
+        Me.pbElementElectro.Name = "pbElementElectro"
+        Me.pbElementElectro.Size = New System.Drawing.Size(45, 45)
+        Me.pbElementElectro.TabIndex = 6
+        Me.pbElementElectro.TabStop = False
+        '
+        'pbElementGeo
+        '
+        Me.pbElementGeo.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Geo
+        Me.pbElementGeo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbElementGeo.Location = New System.Drawing.Point(250, 1)
+        Me.pbElementGeo.Name = "pbElementGeo"
+        Me.pbElementGeo.Size = New System.Drawing.Size(45, 45)
+        Me.pbElementGeo.TabIndex = 7
+        Me.pbElementGeo.TabStop = False
+        '
+        'pbElementHydro
+        '
+        Me.pbElementHydro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Hydro
+        Me.pbElementHydro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbElementHydro.Location = New System.Drawing.Point(199, 1)
+        Me.pbElementHydro.Name = "pbElementHydro"
+        Me.pbElementHydro.Size = New System.Drawing.Size(45, 45)
+        Me.pbElementHydro.TabIndex = 8
+        Me.pbElementHydro.TabStop = False
+        '
+        'pbElementCryo
+        '
+        Me.pbElementCryo.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Cryo
+        Me.pbElementCryo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbElementCryo.Location = New System.Drawing.Point(148, 1)
+        Me.pbElementCryo.Name = "pbElementCryo"
+        Me.pbElementCryo.Size = New System.Drawing.Size(45, 45)
+        Me.pbElementCryo.TabIndex = 9
+        Me.pbElementCryo.TabStop = False
+        '
+        'pbElementPyro
+        '
+        Me.pbElementPyro.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.Element_Pyro
+        Me.pbElementPyro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbElementPyro.Location = New System.Drawing.Point(97, 1)
+        Me.pbElementPyro.Name = "pbElementPyro"
+        Me.pbElementPyro.Size = New System.Drawing.Size(45, 45)
+        Me.pbElementPyro.TabIndex = 10
+        Me.pbElementPyro.TabStop = False
+        '
+        'pnlBuilds
+        '
+        Me.pnlBuilds.Controls.Add(Me.conBuild1)
+        Me.pnlBuilds.Controls.Add(Me.conBuild2)
+        Me.pnlBuilds.Dock = System.Windows.Forms.DockStyle.Right
+        Me.pnlBuilds.Location = New System.Drawing.Point(546, 0)
+        Me.pnlBuilds.Name = "pnlBuilds"
+        Me.pnlBuilds.Padding = New System.Windows.Forms.Padding(5)
+        Me.pnlBuilds.Size = New System.Drawing.Size(219, 485)
+        Me.pnlBuilds.TabIndex = 0
+        '
+        'conBuild1
+        '
+        Me.conBuild1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
+        Me.conBuild1.Controls.Add(Me.pnlBuild1)
+        Me.conBuild1.Location = New System.Drawing.Point(8, 8)
+        Me.conBuild1.Name = "conBuild1"
+        Me.conBuild1.Size = New System.Drawing.Size(200, 218)
+        Me.conBuild1.TabIndex = 0
+        '
         'pnlBuild1
         '
         Me.pnlBuild1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
@@ -1018,6 +1023,36 @@ Partial Class formMain
         Me.pnlBuild1.TabIndex = 1
         Me.pnlBuild1.Visible = False
         '
+        'pbBuild1Art4
+        '
+        Me.pbBuild1Art4.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
+        Me.pbBuild1Art4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuild1Art4.Location = New System.Drawing.Point(150, 136)
+        Me.pbBuild1Art4.Name = "pbBuild1Art4"
+        Me.pbBuild1Art4.Size = New System.Drawing.Size(45, 45)
+        Me.pbBuild1Art4.TabIndex = 0
+        Me.pbBuild1Art4.TabStop = False
+        '
+        'pbBuildCharacter1
+        '
+        Me.pbBuildCharacter1.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
+        Me.pbBuildCharacter1.Location = New System.Drawing.Point(66, 28)
+        Me.pbBuildCharacter1.Name = "pbBuildCharacter1"
+        Me.pbBuildCharacter1.Size = New System.Drawing.Size(70, 70)
+        Me.pbBuildCharacter1.TabIndex = 0
+        Me.pbBuildCharacter1.TabStop = False
+        '
+        'lblBuildType1
+        '
+        Me.lblBuildType1.AutoSize = True
+        Me.lblBuildType1.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBuildType1.ForeColor = System.Drawing.Color.Crimson
+        Me.lblBuildType1.Location = New System.Drawing.Point(68, 9)
+        Me.lblBuildType1.Name = "lblBuildType1"
+        Me.lblBuildType1.Size = New System.Drawing.Size(71, 16)
+        Me.lblBuildType1.TabIndex = 1
+        Me.lblBuildType1.Text = "Build Type"
+        '
         'lbl1Art1
         '
         Me.lbl1Art1.AutoSize = True
@@ -1028,6 +1063,16 @@ Partial Class formMain
         Me.lbl1Art1.Size = New System.Drawing.Size(48, 16)
         Me.lbl1Art1.TabIndex = 1
         Me.lbl1Art1.Text = "Art (x1)"
+        '
+        'pbBuild1Art3
+        '
+        Me.pbBuild1Art3.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
+        Me.pbBuild1Art3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuild1Art3.Location = New System.Drawing.Point(101, 136)
+        Me.pbBuild1Art3.Name = "pbBuild1Art3"
+        Me.pbBuild1Art3.Size = New System.Drawing.Size(45, 45)
+        Me.pbBuild1Art3.TabIndex = 0
+        Me.pbBuild1Art3.TabStop = False
         '
         'lbl1Art2
         '
@@ -1040,14 +1085,15 @@ Partial Class formMain
         Me.lbl1Art2.TabIndex = 1
         Me.lbl1Art2.Text = "Art (x2)"
         '
-        'pbBuildCharacter1
+        'pbBuild1Art2
         '
-        Me.pbBuildCharacter1.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
-        Me.pbBuildCharacter1.Location = New System.Drawing.Point(66, 28)
-        Me.pbBuildCharacter1.Name = "pbBuildCharacter1"
-        Me.pbBuildCharacter1.Size = New System.Drawing.Size(70, 70)
-        Me.pbBuildCharacter1.TabIndex = 0
-        Me.pbBuildCharacter1.TabStop = False
+        Me.pbBuild1Art2.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
+        Me.pbBuild1Art2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuild1Art2.Location = New System.Drawing.Point(52, 136)
+        Me.pbBuild1Art2.Name = "pbBuild1Art2"
+        Me.pbBuild1Art2.Size = New System.Drawing.Size(45, 45)
+        Me.pbBuild1Art2.TabIndex = 0
+        Me.pbBuild1Art2.TabStop = False
         '
         'pbBuild1Art1
         '
@@ -1070,46 +1116,14 @@ Partial Class formMain
         Me.lblCharacterName1.TabIndex = 1
         Me.lblCharacterName1.Text = "Character Name"
         '
-        'pbBuild1Art2
+        'conBuild2
         '
-        Me.pbBuild1Art2.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
-        Me.pbBuild1Art2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuild1Art2.Location = New System.Drawing.Point(52, 136)
-        Me.pbBuild1Art2.Name = "pbBuild1Art2"
-        Me.pbBuild1Art2.Size = New System.Drawing.Size(45, 45)
-        Me.pbBuild1Art2.TabIndex = 0
-        Me.pbBuild1Art2.TabStop = False
-        '
-        'pbBuild1Art3
-        '
-        Me.pbBuild1Art3.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
-        Me.pbBuild1Art3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuild1Art3.Location = New System.Drawing.Point(101, 136)
-        Me.pbBuild1Art3.Name = "pbBuild1Art3"
-        Me.pbBuild1Art3.Size = New System.Drawing.Size(45, 45)
-        Me.pbBuild1Art3.TabIndex = 0
-        Me.pbBuild1Art3.TabStop = False
-        '
-        'lblBuildType1
-        '
-        Me.lblBuildType1.AutoSize = True
-        Me.lblBuildType1.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblBuildType1.ForeColor = System.Drawing.Color.Crimson
-        Me.lblBuildType1.Location = New System.Drawing.Point(68, 9)
-        Me.lblBuildType1.Name = "lblBuildType1"
-        Me.lblBuildType1.Size = New System.Drawing.Size(71, 16)
-        Me.lblBuildType1.TabIndex = 1
-        Me.lblBuildType1.Text = "Build Type"
-        '
-        'pbBuild1Art4
-        '
-        Me.pbBuild1Art4.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portSmall_Albedo
-        Me.pbBuild1Art4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pbBuild1Art4.Location = New System.Drawing.Point(150, 136)
-        Me.pbBuild1Art4.Name = "pbBuild1Art4"
-        Me.pbBuild1Art4.Size = New System.Drawing.Size(45, 45)
-        Me.pbBuild1Art4.TabIndex = 0
-        Me.pbBuild1Art4.TabStop = False
+        Me.conBuild2.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
+        Me.conBuild2.Controls.Add(Me.pnlBuild2)
+        Me.conBuild2.Location = New System.Drawing.Point(8, 232)
+        Me.conBuild2.Name = "conBuild2"
+        Me.conBuild2.Size = New System.Drawing.Size(200, 218)
+        Me.conBuild2.TabIndex = 2
         '
         'pnlBuild2
         '
@@ -1223,6 +1237,17 @@ Partial Class formMain
         Me.lbl2Art1.TabIndex = 10
         Me.lbl2Art1.Text = "Art (x1)"
         '
+        'pbBuildChar7
+        '
+        Me.pbBuildChar7.BackgroundImage = Global.Akashic_Records_of_Teyvat.My.Resources.Resources.portBig_Albedo
+        Me.pbBuildChar7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbBuildChar7.Location = New System.Drawing.Point(8, 97)
+        Me.pbBuildChar7.Name = "pbBuildChar7"
+        Me.pbBuildChar7.Size = New System.Drawing.Size(83, 83)
+        Me.pbBuildChar7.TabIndex = 2
+        Me.pbBuildChar7.TabStop = False
+        Me.pbBuildChar7.Visible = False
+        '
         'formMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1243,30 +1268,11 @@ Partial Class formMain
         Me.pnlDrag.ResumeLayout(False)
         Me.pnlDrag.PerformLayout()
         Me.pnlLoader.ResumeLayout(False)
-        Me.conBuilds.ResumeLayout(False)
-        Me.pnlBuildsCharacters.ResumeLayout(False)
-        Me.pnlBuildsCharacters.PerformLayout()
-        Me.flowCharacters.ResumeLayout(False)
-        CType(Me.pbBuildChar1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuildChar2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuildChar3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuildChar4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuildChar5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuildChar6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbElementAnemo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbElementDendro, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbElementElectro, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbElementGeo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbElementHydro, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbElementCryo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbElementPyro, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.pnlBuilds.ResumeLayout(False)
-        Me.conBuild1.ResumeLayout(False)
-        Me.conBuild2.ResumeLayout(False)
         Me.conFarming.ResumeLayout(False)
         Me.conFarming.PerformLayout()
         Me.pnlFarmCharacters.ResumeLayout(False)
         Me.pnlFarmCharacters.PerformLayout()
+        CType(Me.pbCharacters9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbCharacter4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbCharacter8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbCharacter6, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1301,13 +1307,33 @@ Partial Class formMain
         CType(Me.pbWeapon19, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbWeapon0, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbWeapon13, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.conBuilds.ResumeLayout(False)
+        Me.pnlBuildsCharacters.ResumeLayout(False)
+        Me.pnlBuildsCharacters.PerformLayout()
+        Me.flowCharacters.ResumeLayout(False)
+        CType(Me.pbBuildChar1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuildChar2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuildChar3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuildChar4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuildChar5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuildChar6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbElementAnemo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbElementDendro, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbElementElectro, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbElementGeo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbElementHydro, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbElementCryo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbElementPyro, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlBuilds.ResumeLayout(False)
+        Me.conBuild1.ResumeLayout(False)
         Me.pnlBuild1.ResumeLayout(False)
         Me.pnlBuild1.PerformLayout()
-        CType(Me.pbBuildCharacter1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuild1Art1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuild1Art2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbBuild1Art3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbBuild1Art4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuildCharacter1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuild1Art3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuild1Art2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuild1Art1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.conBuild2.ResumeLayout(False)
         Me.pnlBuild2.ResumeLayout(False)
         Me.pnlBuild2.PerformLayout()
         CType(Me.pbBuild2Art5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1315,6 +1341,7 @@ Partial Class formMain
         CType(Me.pbBuild2Art2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbBuild2Art1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbBuildCharacter2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBuildChar7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1416,4 +1443,6 @@ Partial Class formMain
     Friend WithEvents pbBuildCharacter2 As PictureBox
     Friend WithEvents lbl2Art2 As Label
     Friend WithEvents lbl2Art1 As Label
+    Friend WithEvents pbCharacters9 As PictureBox
+    Friend WithEvents pbBuildChar7 As PictureBox
 End Class

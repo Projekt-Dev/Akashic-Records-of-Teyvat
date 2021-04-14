@@ -7,6 +7,12 @@
 #Region "Help Functions" 'To prevent a lot of repetitive code these functions were created to minimize that
     Public Sub loadFarmableImages(cImg As Image(), wImg As Image())
         Dim i As Integer = 0
+        Dim x As Integer = 0
+
+        If cb.Count > cImg.Length Then
+            cb.Remove(formMain.pbCharacters9)
+            formMain.pnlFarmCharacters.Height = 270
+        End If
         shuffleArray(cImg)
         For Each cpb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
             cpb.BackgroundImage = cImg(i)
@@ -22,7 +28,6 @@
             wb.Remove(formMain.pbWeapon22)
             formMain.pnlFarmWeapons.Height = 270
         End If
-        Dim x As Integer = 0
         shuffleArray(wImg) 'Shuffles array so everytime it is loaded the images are in random order.
         For Each wpb As PictureBox In wb 'Loops through all pictureboxes and fills them with an image.
             wpb.BackgroundImage = wImg(x)

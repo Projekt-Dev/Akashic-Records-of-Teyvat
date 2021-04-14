@@ -44,7 +44,8 @@
            My.Resources.portSmall_Noelle,
            My.Resources.portSmall_Bennet,
            My.Resources.portSmall_XiangLing,
-           My.Resources.portSmall_Chongyun
+           My.Resources.portSmall_Chongyun,
+           My.Resources.portSmall_HuTao
     }
     Public w2 As Image() = {
            My.Resources.Weapon_Skyward_Atlas,

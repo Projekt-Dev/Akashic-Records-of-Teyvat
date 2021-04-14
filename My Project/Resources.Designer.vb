@@ -243,6 +243,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property portBig_HuTao() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("portBig_HuTao", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property portBig_Jean() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("portBig_Jean", resourceCulture)
@@ -356,6 +366,16 @@ Namespace My.Resources
         Friend ReadOnly Property portBig_Razor() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("portBig_Razor", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property portBig_Rosaria() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("portBig_Rosaria", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -543,6 +563,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property portSmall_HuTao() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("portSmall_HuTao", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property portSmall_Jean() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("portSmall_Jean", resourceCulture)
@@ -656,6 +686,16 @@ Namespace My.Resources
         Friend ReadOnly Property portSmall_Razor() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("portSmall_Razor", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property portSmall_Rosaria() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("portSmall_Rosaria", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

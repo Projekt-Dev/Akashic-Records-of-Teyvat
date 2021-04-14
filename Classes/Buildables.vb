@@ -9,7 +9,8 @@
       My.Resources.portBig_Diluc,
       My.Resources.portBig_Klee,
       My.Resources.portBig_XiangLing,
-      My.Resources.portBig_Xinyan
+      My.Resources.portBig_Xinyan,
+      My.Resources.portBig_HuTao
     }
     Public hydro As Image() = {
         My.Resources.portBig_barbra,
@@ -36,7 +37,8 @@
         My.Resources.portBig_Diona,
         My.Resources.portBig_Keaya,
         My.Resources.portBig_QiQi,
-        My.Resources.portBig_Ganyu
+        My.Resources.portBig_Ganyu,
+        My.Resources.portBig_Rosaria
     }
     Public anemo As Image() = {
         My.Resources.portBig_Xaio,
@@ -74,9 +76,13 @@
 
         Dim i As Integer = 0
         shuffleArray(cI)
+        'Figure out a better way to remove the boxes from the list when the array is bigger than the list.
         If cb.Count > cI.Length Then
             cb.Remove(formMain.pbBuildChar1)
-            cb.Remove(formMain.pbBuildChar6)
+            cb.Remove(formMain.pbBuildChar7)
+            If cb.Count > cI.Length Then
+                cb.Remove(formMain.pbBuildChar6)
+            End If
         End If
         For Each _cb As PictureBox In cb 'Loops through all pictureboxes and fills them with an image.
             _cb.BackgroundImage = cI(i)
