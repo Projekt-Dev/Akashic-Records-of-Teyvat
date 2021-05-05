@@ -213,6 +213,7 @@ Public Class formMain
     Private Sub pbElementAnemo_Click(sender As Object, e As EventArgs) Handles pbElementAnemo.Click
         loadCharacters(bld.anemo, "Anemo")
     End Sub
+
 #End Region
 
 End Class

@@ -84,7 +84,8 @@
         My.Resources.portSmall_Keaya,
         My.Resources.portSmall_Xinqui,
         My.Resources.portSmall_Xinyan,
-        My.Resources.portSmall_Beidou
+        My.Resources.portSmall_Beidou,
+        My.Resources.portSmall_Rosaria
     }
     Public w3 As Image() = {
             My.Resources.Weapon_Mappa_Mare,
